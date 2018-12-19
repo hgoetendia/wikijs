@@ -1,5 +1,5 @@
 <!-- TITLE: Snippets -->
-<!-- SUBTITLE: Varios Snippets -->
+<!-- SUBTITLE: All Snippets -->
 
 # Software
 # Electronica
