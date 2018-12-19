@@ -1,4 +1,4 @@
-<!-- TITLE: New Page -->
-<!-- SUBTITLE: A quick summary of New Page -->
+<!-- TITLE: Una neva -->
+<!-- SUBTITLE: Sumario -->
 
-# Header
+# Cabeza
