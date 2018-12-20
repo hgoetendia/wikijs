@@ -44,12 +44,19 @@ Query: 'UPDATE thread AS thread,taggregate_temp_1212047760 AS aggregate
              Master_SSL_Key:
       Seconds_Behind_Master: NULL
 1 row in set (0.00 sec)
-
+```
+```text
 mysql> STOP SLAVE;
+```
+```text
 mysql> SET GLOBAL SQL_SLAVE_SKIP_COUNTER = 1;
+```
+```text
 mysql> START SLAVE;
+```
+```text
 mysql> SHOW SLAVE STATUS \G
-mysql> SHOW SLAVE STATUS \G
+
 *************************** 1. row ***************************
              Slave_IO_State: Waiting for master to send event
                 Master_Host: 1.2.3.4
