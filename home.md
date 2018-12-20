@@ -31,6 +31,7 @@
 
 ## Misc
 * [db-ip.com](/misc/dbip)
+* [ssh](/misc/ssh)
 
 # Electronics
 ## Aqui algo mas alla
