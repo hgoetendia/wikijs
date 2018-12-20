@@ -45,15 +45,19 @@ Query: 'UPDATE thread AS thread,taggregate_temp_1212047760 AS aggregate
       Seconds_Behind_Master: NULL
 1 row in set (0.00 sec)
 ```
+
 ```text
 mysql> STOP SLAVE;
 ```
+
 ```text
 mysql> SET GLOBAL SQL_SLAVE_SKIP_COUNTER = 1;
 ```
+
 ```text
 mysql> START SLAVE;
 ```
+
 ```text
 mysql> SHOW SLAVE STATUS \G
 
