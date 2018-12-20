@@ -1,5 +1,4 @@
 <!-- TITLE: Timezone -->
-<!-- SUBTITLE: A quick summary of Timezone -->
 
 # Set up the timezone.
 
