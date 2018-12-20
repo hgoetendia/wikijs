@@ -16,8 +16,7 @@
 
 ## Databases
 ### MySQL
-* [Jump slave error](/mysql/basics#jumpslaveerror)
-
+* [Jump slave error](/mysql/basics#jump-slave-error)
 
 # Electronics
 ## Aqui algo mas alla
