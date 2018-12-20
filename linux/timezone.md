@@ -6,7 +6,7 @@
 
 ```sh
 timedatectl list-timezones
-sudo timedatectl set-timezone 'Region/City'
+sudo timedatectl set-timezone 'America/Lima'
 ```
  For checking
  
