@@ -1,4 +1,4 @@
-<!-- TITLE: Timezone -->
+<!-- TITLE: Linux/Timezone -->
 
 # Set up the timezone.
 
