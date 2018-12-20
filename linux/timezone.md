@@ -9,7 +9,6 @@ timedatectl list-timezones
 Choose one for example America/Lima
 
 ```sh
-
 sudo timedatectl set-timezone 'America/Lima'
 ```
 
