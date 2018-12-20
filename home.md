@@ -5,7 +5,7 @@
 ## Perl
 
 ## Let’s Encrypt
-[Básico](/software/letsencrypt)
+[Básico](/software/letsencrypt/basico)
 
 
 
