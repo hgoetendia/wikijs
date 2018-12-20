@@ -1,7 +1,7 @@
 <!-- TITLE: SYN without SYN/ACK -->
 <!-- SUBTITLE: Setting for a webserver with big transactionality -->
 
-
+Reference: https://serverfault.com/questions/235965/why-would-a-server-not-send-a-syn-ack-packet-in-response-to-a-syn-packet
 
 Change the `net.ipv4.tcp_tw_recycle` parameter from 1 to 0
 
