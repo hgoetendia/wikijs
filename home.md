@@ -24,6 +24,9 @@
 * [Jump slave error](/mysql/basics#jump-slave-error)
 
 
+##Misc
+* [db-ip.com](/misc/dbip)
+
 # Electronics
 ## Aqui algo mas alla
 
