@@ -4,10 +4,13 @@
 # Configuring
 
 
+Creating config file
+
 ```sh
 sudo vim /etc/nginx/conf.d/mysite.conf
 ```
 
+Settings
 
 ```text
 server {
