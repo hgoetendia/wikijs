@@ -1,5 +1,5 @@
-<!-- TITLE: Checkconfig -->
-<!-- SUBTITLE: Check if nginx configfiles are good -->
+<!-- TITLE: Nginx Basic commands -->
+
 
 Install Nginx (Centos/RedHat)
 
