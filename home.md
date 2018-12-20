@@ -5,6 +5,15 @@
 ## Perl
 
 ## Nginx
+
+Check the configuration.
+
+
+```sh
+sudo nginx -t
+```
+
+
 [Add letsencrypt configuration](/nginx/letsencrypt)
 
 ## Let’s Encrypt
