@@ -6,14 +6,8 @@
 
 ## Nginx
 
-Check the configuration.
 
-
-```sh
-sudo nginx -t
-```
-
-
+[Check Nginx configuration](/nginx/checkconfig)
 [Add letsencrypt configuration](/nginx/letsencrypt)
 
 ## Let’s Encrypt
