@@ -5,7 +5,7 @@
 ## Perl
 
 ## Nginx
-[Add letsencrypt configuration](/software/nginx/letsencrypt)
+[Add letsencrypt configuration](/nginx/letsencrypt)
 
 ## Let’s Encrypt
 [Básico](/letsencrypt#basic)
