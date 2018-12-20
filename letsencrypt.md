@@ -32,3 +32,9 @@ sudo /etc/letsencrypt/acme.sh --issue --home /etc/letsencrypt -d www.example.com
 # ECDSA/ECC P-256
 sudo /etc/letsencrypt/acme.sh --issue --home /etc/letsencrypt -d www.example.com --webroot /usr/share/nginx/html --reloadcmd "sudo systemctl reload nginx.service" --accountemail your_email@example.com --ocsp-must-staple --keylength ec-256 
 ```
+
+After running the above commands, your certificates and keys will be in the following directories:
+
+
+* For RSA: /etc/letsencrypt/wiki.example.com
+* For ECC/ECDSA: /etc/letsencrypt/wiki.example.com_ecc
