@@ -15,3 +15,12 @@ cd acme.sh
 sudo ./acme.sh --install --home /etc/letsencrypt --accountemail your_email@example.com
 cd ~
 ```
+
+Check the version.
+
+
+```text
+/etc/letsencrypt/acme.sh --version
+# v2.7.9
+
+```
