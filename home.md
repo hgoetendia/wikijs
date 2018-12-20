@@ -15,6 +15,7 @@
 * [Basic](/letsencrypt#basic)
 
 ## Databases
+
 ### MySQL
 * [Jump slave error](/mysql/basics#jump-slave-error)
 
