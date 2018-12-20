@@ -1,13 +1,10 @@
 <!-- TITLE: Tcpdump -->
 <!-- SUBTITLE: A quick summary of Tcpdump -->
 
--w myfile.pcap  # Dump to file myfile.pcap
--ieth0                 # eth0 interface, if you want any -iany
+* -w myfile.pcap  # Dump to file myfile.pcap
+* -ieth0                 # eth0 interface, if you want any -iany
                    
-
 # By Port
-
-
 '
 
 ```sh
