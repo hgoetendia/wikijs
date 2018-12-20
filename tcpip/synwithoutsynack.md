@@ -1,8 +1,7 @@
-<!-- TITLE: Synwithoutsynack -->
-<!-- SUBTITLE: A quick summary of Synwithoutsynack -->
+<!-- TITLE: SYN without SYN/ACK -->
+<!-- SUBTITLE: Setting for a webserver with big transactionality -->
 
-In a webserver with big transactionality
-# Header
+
 
 Change the `net.ipv4.tcp_tw_recycle` parameter from 1 to 0
 
