@@ -1,4 +1,4 @@
-<!-- TITLE: Dbip -->
+<!-- TITLE: DB-IP -->
 <!-- SUBTITLE: Service to obtain a location from IP using https://db-ip.com -->
 
 # Get IP location 
