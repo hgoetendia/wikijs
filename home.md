@@ -11,7 +11,7 @@
 [Add letsencrypt configuration](/nginx/letsencrypt)
 
 ## Let’s Encrypt
-[Básico](/letsencrypt#basic)
+[Basic](/letsencrypt#basic)
 
 
 
