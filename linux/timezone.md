@@ -16,13 +16,13 @@ sudo timedatectl set-timezone 'America/Lima'
  
  ```sh
 timedatectl 
-             Local time: Wed 2018-06-20 12:37:55 -05
-    Universal time: Wed 2018-06-20 17:37:55 UTC
-                 RTC time: Wed 2018-06-20 17:37:55
-               Time zone: America/Lima (-05, -0500)
-           NTP enabled: yes
+      Local time: jue 2018-12-20 11:08:14 -05
+  Universal time: jue 2018-12-20 16:08:14 UTC
+        RTC time: jue 2018-12-20 16:08:14
+       Time zone: America/Lima (-05, -0500)
+     NTP enabled: yes
 NTP synchronized: yes
-  RTC in local TZ: no
-             DST active: n/a
+ RTC in local TZ: no
+      DST active: n/a
 ```
  
