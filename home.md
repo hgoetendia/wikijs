@@ -8,6 +8,9 @@
 * [Strace](/linux/strace)
 
 ## TCP/IP
+
+* [TCP session establishment and termination](/tcpip/sessioneandtermination)
+
 ### Tunning
 * [SYN without SYN/ACK response](/tcpip/synwithoutsynack)
 
