@@ -9,7 +9,7 @@
 
 ## TCP/IP
 ### Tunning
-* [SYN packet without SYN/ACK response](/tcpip/synwithoutsynack)
+* [SYN without SYN/ACK response](/tcpip/synwithoutsynack)
 
 ## Perl
 
