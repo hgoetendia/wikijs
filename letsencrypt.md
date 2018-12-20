@@ -28,7 +28,7 @@ Obtain RSA and ECDSA certificates for your domain/hostname.
 ```sh
 #As simple user
 # RSA 2048
-sudo /etc/letsencrypt/acme.sh --issue --home /etc/letsencrypt -d wiki.example.com --webroot /usr/share/nginx/html --reloadcmd "sudo systemctl reload nginx.service" --accountemail your_email@example.com --ocsp-must-staple --keylength 2048
+sudo /etc/letsencrypt/acme.sh --issue --home /etc/letsencrypt -d www.example.com --webroot /usr/share/nginx/html --reloadcmd "sudo systemctl reload nginx.service" --accountemail your_email@example.com --ocsp-must-staple --keylength 2048
 # ECDSA/ECC P-256
-sudo /etc/letsencrypt/acme.sh --issue --home /etc/letsencrypt -d wiki.example.com --webroot /usr/share/nginx/html --reloadcmd "sudo systemctl reload nginx.service" --accountemail your_email@example.com --ocsp-must-staple --keylength ec-256 
+sudo /etc/letsencrypt/acme.sh --issue --home /etc/letsencrypt -d www.example.com --webroot /usr/share/nginx/html --reloadcmd "sudo systemctl reload nginx.service" --accountemail your_email@example.com --ocsp-must-staple --keylength ec-256 
 ```
