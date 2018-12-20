@@ -8,6 +8,7 @@
 
 
 [Check Nginx configuration](/nginx/checkconfig)
+
 [Add letsencrypt configuration](/nginx/letsencrypt)
 
 ## Let’s Encrypt
