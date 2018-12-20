@@ -5,6 +5,7 @@
 ## Linux
 * [Set up time and timezone](/linux/timezone)
 * [Tcpdump](/linux/tcpdump)
+* [Strace](/linux/strace)
 
 ## TCP/IP
 ### Tunning
