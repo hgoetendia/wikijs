@@ -1,4 +1,4 @@
-<!-- TITLE: Ssh -->
+<!-- TITLE: SSH -->
 
 # SSH across 3 machines
 * Source localhost port 8002
