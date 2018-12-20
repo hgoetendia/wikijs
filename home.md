@@ -14,6 +14,9 @@
 ## Let’s Encrypt
 * [Basic](/letsencrypt#basic)
 
+## Databases
+### MySQL
+* [Jump slave error](/mysql/basics#jumpslaveerror)
 
 
 # Electronics
