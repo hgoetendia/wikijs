@@ -2,6 +2,10 @@
 <!-- SUBTITLE: All Snippets -->
 
 # Software
+
+## Linux
+* [Set up time and timezone](/linux/timezone)
+
 ## Perl
 
 ## Nginx
@@ -18,6 +22,7 @@
 
 ### MySQL
 * [Jump slave error](/mysql/basics#jump-slave-error)
+
 
 # Electronics
 ## Aqui algo mas alla
