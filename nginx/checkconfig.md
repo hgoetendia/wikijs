@@ -1,14 +1,15 @@
 <!-- TITLE: Nginx Basic commands -->
 
+# Install Nginx 
 
-# Install Nginx (Centos/RedHat)
-
-
+Centos/RedHat
 ```sh
 sudo yum install -y nginx
 ```
 
-# Enable and start Nginx. (Centos/RedHat)
+# Enable and start Nginx. 
+
+Centos/RedHat
 
 ```sh
 sudo systemctl enable nginx.service
@@ -21,9 +22,8 @@ sudo systemctl start nginx.service
 sudo nginx -t
 ```
 
-
-# Reload Nginx (Centos/RedHat).
-
+# Reload Nginx.
+Centos/RedHat
 
 ```sh
 sudo systemctl reload nginx.service
