@@ -3,6 +3,7 @@
 
 # Software
 ## Perl
+[Internal Link Title](/path/to/page)
 ## Lets encrypt
 ### Simple
 
