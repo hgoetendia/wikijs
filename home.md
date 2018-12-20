@@ -7,7 +7,7 @@
 ## Nginx
 
 
-* [Check Nginx configuration](/nginx/checkconfig)
+* [Nginx basic configuration](/nginx/checkconfig)
 
 * [Add letsencrypt configuration](/nginx/letsencrypt)
 
