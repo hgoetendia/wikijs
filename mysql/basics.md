@@ -3,7 +3,7 @@
 # Jump slave error
 Repair MySQL Replication
 
-
+Check
 ```text
 mysql> SHOW SLAVE STATUS \G
 *************************** 1. row ***************************
@@ -46,18 +46,22 @@ Query: 'UPDATE thread AS thread,taggregate_temp_1212047760 AS aggregate
 1 row in set (0.00 sec)
 ```
 
+Stop the slave
 ```text
 mysql> STOP SLAVE;
 ```
 
+Jump the error
 ```text
 mysql> SET GLOBAL SQL_SLAVE_SKIP_COUNTER = 1;
 ```
 
+Start the slave
 ```text
 mysql> START SLAVE;
 ```
 
+Check again
 ```text
 mysql> SHOW SLAVE STATUS \G
 
