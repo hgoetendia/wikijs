@@ -104,7 +104,7 @@ Replicate_Wild_Ignore_Table:
 mysql>
 ```
 
-Optional check the `/var/log/syslog` file
+Optional check the `/var/log/syslog` file.
 
 
 
