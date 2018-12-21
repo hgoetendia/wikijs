@@ -56,3 +56,17 @@ server {
 
 }
 ```
+
+
+This part:
+
+```text
+
+		# Enable OCSP stapling (http://blog.mozilla.org/security/2013/07/29/ocsp-stapling-in-firefox)
+    ssl_stapling on;
+    ssl_stapling_verify on;
+    ssl_trusted_certificate /etc/letsencrypt/www.example.com/fullchain.cer;
+```
+
+Is to prevent the Firefox error: `A required TLS feature is missing. Error code: MOZILLA_PKIX_ERROR_REQUIRED_TLS_FEATURE_MISSING`
+
