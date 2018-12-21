@@ -37,6 +37,5 @@
 * [ssh](/misc/ssh)
 
 # Electronics
-## Aqui algo mas alla
 
 
