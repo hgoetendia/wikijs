@@ -4,7 +4,6 @@
 
 ## Linux
 * [Set up time and timezone](/linux/timezone)
-* [Tcpdump](/linux/tcpdump)
 * [Strace](/linux/strace)
 
 ### Tunning
@@ -40,6 +39,7 @@
 ## Misc
 * [db-ip.com](/misc/dbip)
 * [ssh](/misc/ssh)
+* [Tcpdump](/misc/tcpdump)
 * [https: Let’s Encrypt](/misc/letsencrypt)
 
 # Electronics
