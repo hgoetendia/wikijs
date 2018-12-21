@@ -18,12 +18,14 @@
 
 ## Perl
 
-## Nginx
-
+## Web servers and similar
+### Nginx
 
 * [Nginx basic configuration](/nginx/checkconfig)
 
 * [Add letsencrypt configuration](/nginx/letsencrypt)
+
+### Apache
 
 
 ## Databases
