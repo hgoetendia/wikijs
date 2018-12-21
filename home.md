@@ -18,7 +18,7 @@
 
 ## Perl
 
-## Web servers and similar
+## Web servers
 ### Nginx
 
 * [Nginx basic configuration](/nginx/checkconfig)
