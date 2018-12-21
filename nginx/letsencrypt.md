@@ -37,6 +37,12 @@ server {
     # ECDSA
     ssl_certificate /etc/letsencrypt/www.example.com_ecc/fullchain.cer;
     ssl_certificate_key /etc/letsencrypt/www.example.com_ecc/www.example.com.key;
+		
+		# Enable OCSP stapling (http://blog.mozilla.org/security/2013/07/29/ocsp-stapling-in-firefox)
+    ssl_stapling on;
+    ssl_stapling_verify on;
+    ssl_trusted_certificate /etc/letsencrypt/www.example.com/fullchain.cer;
+
 
     location / {
         proxy_set_header Host $http_host;
