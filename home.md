@@ -38,7 +38,7 @@
 ## Misc
 * [db-ip.com](/misc/dbip)
 * [ssh](/misc/ssh)
-* [https Let’s Encrypt](/misc/letsencrypt)
+* [https: Let’s Encrypt](/misc/letsencrypt)
 
 # Electronics
 
