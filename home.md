@@ -10,12 +10,6 @@
 ### Tunning
 * [SYN without SYN/ACK response](/tcpip/synwithoutsynack)
 
-
-## TCP/IP
-
-* [TCP session establishment and termination](/tcpip/sessioneandtermination)
-
-
 ## Perl
 
 ## Web servers
@@ -34,6 +28,10 @@
 * [Jump slave error](/mysql/basics#jump-slave-error)
 
 ### PostgreSQL
+
+## TCP/IP
+
+* [TCP session establishment and termination](/tcpip/sessioneandtermination)
 
 
 
