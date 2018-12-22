@@ -10,11 +10,15 @@ The xs part takes up when screen is extra small, Similarly small, medium and lar
 
 The example you provided:
 
+
+```javascript
 <Row>
   <Col xs={12} sm={3} md={2} lg={1} />
   <Col xs={6} sm={6} md={8} lg={10} />
   <Col xs={6} sm={3} md={2} lg={1} />
 </Row>
+```
+
 For our sake lets assume these three columns are named as col-1, col-2 and col-3
 
 On an extra small screen:
