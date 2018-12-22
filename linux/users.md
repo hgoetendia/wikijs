@@ -17,3 +17,4 @@ sudo usermod -aG wheel juan
 ```
 
 
+All commands were tested in Centos.
