@@ -12,6 +12,8 @@
 
 ## Perl
 
+## JavaScript
+
 ## C/C++
 
 ## Emacs
