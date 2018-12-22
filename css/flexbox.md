@@ -1,8 +1,15 @@
 <!-- TITLE: Flexbox -->
-<!-- SUBTITLE: A quick summary of Flexbox -->
 
-# xs sm md lg 
+# xs, sm, md, lg, xl 
+
 Based: https://stackoverflow.com/questions/43445592/what-is-the-meaning-of-xs-md-lg-in-css-flexbox-system
+
+*   Extra small xs < 576px 
+*   Small       sm < 768px 
+* 	Medium      md < 992px 
+* 	Large       lg < 1200px
+* 	Extra Large xl > 1200px
+
 
 Let us assume that our screen is divided into 12 columns.
 
