@@ -1,5 +1,4 @@
 <!-- TITLE: Users -->
-<!-- SUBTITLE: A quick summary of Users -->
 
 # Create a user.
 
