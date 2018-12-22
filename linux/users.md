@@ -13,7 +13,7 @@ In this case we will user the `wheel` group:
 
 
 ```sh
-usermod -aG wheel juan
+sudo usermod -aG wheel juan
 ```
 
 
