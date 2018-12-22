@@ -14,6 +14,8 @@
 
 ## C/C++
 
+## Emacs
+
 ## Web servers
 ### Nginx
 
