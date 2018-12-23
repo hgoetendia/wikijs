@@ -23,7 +23,13 @@ JavaScript ISO Dates
 
 ISO 8601 is the international standard for the representation of dates and times.
 
-The ISO 8601 syntax (YYYY-MM-DD) is also the preferred JavaScript date format:
+The ISO 8601 syntax (YYYY-MM-DD) is also the preferred JavaScript date format
+
+ISO dates can be written with added hours, minutes, and seconds (YYYY-MM-DDTHH:MM:SSZ)
+
+Date and time is separated with a capital T,  UTC time is defined with a capital letter Z.
+
+If you want to modify the time relative to UTC, remove the Z and add +HH:MM or -HH:MM instead
 
 Example (Complete date)
 
@@ -31,6 +37,7 @@ Example (Complete date)
 ```javascript
 var d = new Date("2015-03-25");
 var e = new Date("2018-12-29T17:07:31.069Z");
+var f = new Date("2015-03-25T12:00:00-06:30"); 
 ```
 
 
