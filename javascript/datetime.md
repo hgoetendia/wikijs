@@ -7,7 +7,7 @@
 var dateToSend = new Date(); //Now
 
 var sched_dd = dateToSend.getDate();
-var sched_mm = dateToSend.getMonth() + 1; 
+var sched_mm = dateToSend.getMonth() + 1;  //Months are from 0 to 11
 var sched_yyyy = dateToSend.getFullYear();
 var sched_hour = dateToSend.getHours();
 var sched_minute = dateToSend.getMinutes();
