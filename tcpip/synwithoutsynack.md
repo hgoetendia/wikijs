@@ -2,19 +2,9 @@
 <!-- SUBTITLE: Setting for a webserver with big transactionality -->
 
 Reference: https://serverfault.com/questions/235965/why-would-a-server-not-send-a-syn-ack-packet-in-response-to-a-syn-packet
-Reference: https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c00916755
 
 
-If there are many TIME_WAIT processes remove them faster consider enabling either or both of the following:
-
-
-* net.ipv4.tcp_tw_recycle
-* net.ipv4.tcp_tw_reuse
-						 
-
-
-Changing the `net.ipv4.tcp_tw_recycle` parameter from 1 to 0
-
+Disable the parameter changing the `net.ipv4.tcp_tw_recycle` parameter from 1 to 0
 
 ```sh
 sudo sysctl -w net.ipv4.tcp_tw_recycle=0
@@ -35,9 +25,8 @@ net.ipv4.tcp_tw_recycle = 0
 ```
 
 
-Apply the same steps for net.ipv4.tcp_tw_reuse.
 
-
+The opposite effect
 
 Enabling these tunables will not make the host crash or unstable, but it may break TCP/IP functionality if the host is connected to devices such as load-balancers or firewalls.  Some of these devices can reject SYN if it reuses the same connection (i.e. src/dst IP and src/dst ports are the same) too quickly.  RFC 1122 describes when it is acceptable to recycle the connection when SYN arrives for a connection in TIME_WAIT state. 
 
@@ -49,4 +38,4 @@ Setting tcp_tw_reuse to 1 will make a host reuse the same connection quickly for
 
 As the documentation says, it is better to consult networking resources to see whether enabling these options makes sense for your environment.
 
-
+Reference: https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c00916755
