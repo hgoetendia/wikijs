@@ -16,7 +16,7 @@ var sched_date = `${sched_yyyy}-${sched_mm}-${sched_dd} ${sched_hour}:${sched_mi
 ```
 
 
-Sample result:  `2018-12-23 14:30:20`
+Sample `sched_date` result:  `2018-12-23 14:30:20`
 
 
 JavaScript ISO Dates
