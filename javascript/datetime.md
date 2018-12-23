@@ -1,6 +1,8 @@
 <!-- TITLE: Date and time -->
 
-# Date Class
+# JavaScript
+
+##Date Class
 
 
 ```javascript
