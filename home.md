@@ -17,6 +17,9 @@
 
 ## C/C++
 
+## JavaScript
+* [Date and time](/javascript/datetime)
+
 ## Emacs
 
 ## Web servers
