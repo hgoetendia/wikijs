@@ -26,7 +26,7 @@ net.ipv4.tcp_tw_recycle = 0
 
 
 
-The opposite effect
+### The opposite effect
 
 Enabling these tunables will not make the host crash or unstable, but it may break TCP/IP functionality if the host is connected to devices such as load-balancers or firewalls.  Some of these devices can reject SYN if it reuses the same connection (i.e. src/dst IP and src/dst ports are the same) too quickly.  RFC 1122 describes when it is acceptable to recycle the connection when SYN arrives for a connection in TIME_WAIT state. 
 
