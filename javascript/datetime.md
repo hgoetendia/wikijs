@@ -1,5 +1,4 @@
-<!-- TITLE: Datetime -->
-<!-- SUBTITLE: A quick summary of Datetime -->
+<!-- TITLE: Date and time -->
 
 # Date Class
 
