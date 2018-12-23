@@ -2,7 +2,7 @@
 
 * -w myfile.pcap  #  Dump to file myfile.pcap
 * -ieth0                 # eth0 interface,  -iany, -il0
-* -C20                  # Dump file will rotate every 20MB
+* -C20                  # Dump file will rotate every 1,000,000 bytes, not 1,048,576 bytes, for the example aprox 20MB.
 * -s3000               # snapshot length (snap len) in bytes, no more than snaplen bytes of each network packet will be read into memory, or saved to disk.  A value of 0 specifies a snapshot length of 65535, so that the full packet is captured; this is the default.
 * -Zroot                # Drops privileges (if root) and changes user ID to user and the group ID to the primary group of user.
 # By Port
