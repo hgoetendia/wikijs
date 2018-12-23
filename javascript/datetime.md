@@ -31,8 +31,7 @@ Date and time is separated with a capital T,  UTC time is defined with a capital
 
 If you want to modify the time relative to UTC, remove the Z and add +HH:MM or -HH:MM instead
 
-Example (Complete date)
-
+Examples
 
 ```javascript
 var d = new Date("2015-03-25");
