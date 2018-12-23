@@ -1,4 +1,4 @@
-<!-- TITLE: JavaScript Date and time -->
+<!-- TITLE: JavaScript: Date and time -->
 
 # Date Class
 
