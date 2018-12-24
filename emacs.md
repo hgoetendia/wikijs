@@ -170,3 +170,14 @@ First install `whitespace` package.
     (global-set-key "\C-ci" 'ido-goto-symbol) ; or any key you see fit
 
 ```
+
+## Autocomplete
+
+Require auto-complete package
+
+
+```lisp
+;;;;;;;;;;;;;;;Autocomplete
+(require 'auto-complete)
+(global-auto-complete-mode t)
+```
