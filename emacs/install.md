@@ -78,4 +78,20 @@ With keys:
 ```
 
 
+# Neotree (file manager)
+F12 to toggle neotree window
+
+![Installneotree](/uploads/emacs/installneotree.png "Installneotree")
+
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;NEOTREE directorios a la izquierda;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(require 'neotree)
+  (global-set-key [f12] 'neotree-toggle)
+
+```
+
+
+
 
