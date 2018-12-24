@@ -14,7 +14,7 @@ emacs
 
 # Repos
 
- Repo gnu and melpa to install emacs addons.
+ Repo `gnu` and `melpa` to install emacs addons.
  
 
 ```lisp
