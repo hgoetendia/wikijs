@@ -16,6 +16,12 @@ emacs
 
 Create startup configuration file `.emacs`
 
+
+`emacs .emacs`
+
+
+![Filedotemacs](/uploads/emacs/filedotemacs.png "Filedotemacs")
+
 # Repos
 
  Repo `gnu` and `melpa` to install emacs addons.
