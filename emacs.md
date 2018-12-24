@@ -86,6 +86,8 @@ Tunning compilation window.
 
 ## 80 Columns mark
 
+First install `whitespace` package.
+
 ```lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;; Marca en la columna 80 en adelante;;;;;;;;;;;;;;;;;;;;;;;;;;;;
