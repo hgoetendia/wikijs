@@ -28,7 +28,7 @@ emacs
 ```
 
 # Backup folder
-Set the backup folder to avoid that files anywhere.
+Set the backup folder to avoid them.
 
 
 ```lisp
