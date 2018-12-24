@@ -5,6 +5,7 @@
 
 ```sh
 sudo yum install -y emacs
+emacs
 ```
 
 
