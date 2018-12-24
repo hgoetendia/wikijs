@@ -38,8 +38,9 @@ Using F6
 (global-set-key [f6] 'next-error)
 ```
 
-## Tunning compilation window
+## Compilation window
 
+Tunning compilation window.
 
 ```lisp
 (defun my-compilation-hook ()
