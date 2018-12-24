@@ -93,5 +93,5 @@ F12 to toggle neotree window
 ```
 
 
-
+![Neotree 2](/uploads/emacs/neotree-2.png "Neotree 2")
 
