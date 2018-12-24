@@ -38,4 +38,26 @@ Using F6
 (global-set-key [f6] 'next-error)
 ```
 
+## Tunning compilation window
+
+
+```lisp
+(defun my-compilation-hook ()
+  (when (not (get-buffer-window "*compilation*"))
+    (save-selected-window
+      (save-excursion
+        (let* ((w (split-window-vertically))
+               (h (window-height w)))
+          (select-window w)
+          (switch-to-buffer "*compilation*")
+          (shrink-window (- h 10)))))))
+(add-hook 'compilation-mode-hook 'my-compilation-hook)
+
+;; auto scroll to the end 
+(setq compilation-scroll-output 1)
+```
+
+
+
+
 
