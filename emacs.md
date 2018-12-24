@@ -55,6 +55,7 @@ Using F6
 
 ;; auto scroll to the end 
 (setq compilation-scroll-output 1)
+(setq column-number-mode t)
 ```
 
 
