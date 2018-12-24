@@ -100,4 +100,13 @@ First install `whitespace` package.
 
 ```
 
+## Switch between foo.h and foo.c files
 
+
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;Para switchear con el header .h o el .c viceversa;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(global-set-key (kbd "C-x C-o") 'ff-find-other-file)
+
+```
