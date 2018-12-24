@@ -29,8 +29,9 @@
 (global-set-key [f5] 'compile)
 ```
 
-## Jump to the next error with F6
+## Jump to the next compilation error
 
+Using F6
 
 ```lisp
 ;Siguiente error de compilacion
