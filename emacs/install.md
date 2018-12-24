@@ -1,4 +1,4 @@
-<!-- TITLE: Install -->
+![Emacs](/uploads/emacs/emacs.png "Emacs")<!-- TITLE: Install -->
 <!-- SUBTITLE: A quick summary of Install -->
 
 # Header
