@@ -115,9 +115,6 @@ First install `whitespace` package.
 ## Jump between C functions
 
 
-* Require imenu
-
-
 ```lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;; Param saltar entre funciones de C ;;;;;;;;;;;;;;;;;;;;;;;;;
