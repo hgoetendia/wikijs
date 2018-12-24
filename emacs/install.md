@@ -17,7 +17,11 @@ emacs
 Create startup configuration file `.emacs`
 
 
-`emacs .emacs`
+
+```lisp
+emacs .emacs
+```
+
 
 
 ![Filedotemacs](/uploads/emacs/filedotemacs.png "Filedotemacs")
