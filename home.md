@@ -15,14 +15,13 @@
 # IDEs
 ## Emacs
 
-## Linux
+# Linux
 * [Set up time and timezone](/linux/timezone)
 * [Strace](/linux/strace)
 * [Users](/linux/users)
 
-### Tunning
+## Tunning
 * [SYN without SYN/ACK response](/tcpip/synwithoutsynack)
-
 
 
 
