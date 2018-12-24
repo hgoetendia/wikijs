@@ -14,7 +14,7 @@
 
 # IDEs
 ## Emacs
-*[Emacs](/emacs)
+* [Emacs](/emacs)
 
 # Linux
 * [Set up time and timezone](/linux/timezone)
