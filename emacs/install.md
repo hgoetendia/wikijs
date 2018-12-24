@@ -14,8 +14,10 @@ emacs
 
 ![Emacs](/uploads/emacs/emacs.png "Emacs")
 
-# Repos to install emacs add ons
+# Repos
 
+ Repo gnu and melpa to install emacs addons.
+ 
 
 ```lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
