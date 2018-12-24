@@ -20,7 +20,7 @@
 ## JavaScript
 * [Date and time](/javascript/datetime)
 
-## [Emacs](/emacs)
+[Emacs](/emacs)
 
 ## Web servers
 ### Nginx
