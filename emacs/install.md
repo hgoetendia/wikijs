@@ -79,6 +79,13 @@ With keys:
 
 # Switching between windows
 
+Custom switching using:
+
+* ESC left arrow
+* ESC right arrow
+* ESC up arrow
+* ESC down arrow
+
 
 ```lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
