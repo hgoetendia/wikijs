@@ -1,5 +1,4 @@
-<!-- TITLE: Install -->
-<!-- SUBTITLE: A quick summary of Install -->
+<!-- TITLE: Emacs/Basics -->
 
 # Install
 
