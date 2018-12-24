@@ -100,7 +100,7 @@ First install `whitespace` package.
 
 ```
 
-## Switch between foo.h and foo.c files
+## Switch between .h and .c files
 
 
 ```lisp
