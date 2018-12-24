@@ -3,4 +3,4 @@
 
 * [Basics](/emacs/basics)
 
-# Emacs for C/C++ programming
+# Emacs for C/C++
