@@ -17,3 +17,24 @@
       c-basic-offset 4)
 
 ```
+
+## Compile with F5
+
+
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Compilacion;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;compilar con f5
+(global-set-key [f5] 'compile)
+```
+
+## Jump to the next error with F6
+
+
+```lisp
+;Siguiente error de compilacion
+(global-set-key [f6] 'next-error)
+```
+
+
