@@ -4,7 +4,7 @@
 * [Basics](/emacs/basics)
 
 # Emacs for C/C++
-TAB = 4 spaces.
+## TAB = 4 spaces.
 
 ```lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
