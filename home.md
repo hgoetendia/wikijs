@@ -1,15 +1,6 @@
 <!-- TITLE: Snippets -->
 
-# Software
-
-## Linux
-* [Set up time and timezone](/linux/timezone)
-* [Strace](/linux/strace)
-* [Users](/linux/users)
-
-### Tunning
-* [SYN without SYN/ACK response](/tcpip/synwithoutsynack)
-
+# Development
 ## Perl
 
 ## CSS
@@ -20,32 +11,45 @@
 ## JavaScript
 * [Date and time](/javascript/datetime)
 
-[Emacs](/emacs)
 
-## Web servers
-### Nginx
+# IDEs
+## Emacs
+
+## Linux
+* [Set up time and timezone](/linux/timezone)
+* [Strace](/linux/strace)
+* [Users](/linux/users)
+
+### Tunning
+* [SYN without SYN/ACK response](/tcpip/synwithoutsynack)
+
+
+
+
+# Web servers
+## Nginx
 
 * [Nginx basic configuration](/nginx/checkconfig)
 
 * [Add letsencrypt configuration](/nginx/letsencrypt)
 
-### Apache
+## Apache
 
 
-## Databases
+# Databases
 
-### MySQL
+## MySQL
 * [Jump slave error](/mysql/basics#jump-slave-error)
 
-### PostgreSQL
+## PostgreSQL
 
-## TCP/IP
+# TCP/IP
 
 * [TCP session establishment and termination](/tcpip/sessioneandtermination)
 
 
 
-## Misc
+# Misc
 * [db-ip.com](/misc/dbip)
 * [ssh](/misc/ssh)
 * [Tcpdump](/misc/tcpdump)
