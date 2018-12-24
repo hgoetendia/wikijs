@@ -1,4 +1,4 @@
 <!-- TITLE: Emacs -->
 
-# Header
+# Basics
 * [Install](/emacs/install)
