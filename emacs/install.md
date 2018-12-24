@@ -12,6 +12,10 @@ To start emacs
 emacs
 ```
 
+# .emacs file
+
+Create startup configuration file `.emacs`
+
 # Repos
 
  Repo `gnu` and `melpa` to install emacs addons.
