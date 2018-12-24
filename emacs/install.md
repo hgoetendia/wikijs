@@ -1,5 +1,11 @@
 <!-- TITLE: Install -->
 <!-- SUBTITLE: A quick summary of Install -->
 
-# Header
+# Install
+
+```sh
+sudo yum install -y emacs
+```
+
+
 ![Emacs](/uploads/emacs/emacs.png "Emacs")
