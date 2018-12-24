@@ -29,3 +29,16 @@ emacs
 
 ```
 
+# Backup folder
+Set the backup folder to avoid that files anywhere.
+
+
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;Para que todos los archivos backup residan en un solo sitio;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq backup-directory-alist `(("." . "~/")))
+
+```
+
+
