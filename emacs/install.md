@@ -12,8 +12,6 @@ To start emacs
 emacs
 ```
 
-![Emacs](/uploads/emacs/emacs.png "Emacs")
-
 # Repos
 
  Repo gnu and melpa to install emacs addons.
