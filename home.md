@@ -13,7 +13,7 @@
 
 
 # IDEs
-## Emacs [Emacs](/emacs)
+## Emacs 
 * [Emacs](/emacs)
 
 # Linux
