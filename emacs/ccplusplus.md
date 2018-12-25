@@ -1,7 +1,7 @@
 <!-- TITLE: Emacs -->
 
 
-* [Basics](/emacs/basics)
+
 
 # Emacs for C/C++
 ## TAB = 4 spaces.
