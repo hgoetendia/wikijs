@@ -2,5 +2,5 @@
 <!-- SUBTITLE: A quick summary of Emacs -->
 
 
-* [Basics] (/emacs/basics)
-* 
+* [Basics](/emacs/basics)
+* [C/C++](/emacs/ccplusplus)
