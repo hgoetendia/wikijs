@@ -166,9 +166,13 @@ F12 to toggle neotree window
 # Return to the previously edit position
 When you visit a file, point goes to the last place where it was when you previously visited the same file.
 
+
+```lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; A la hora de cargar te devuelva a la misma posicion donde estabas;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'saveplace)
 (setq-default save-place t)
+```
+
 
