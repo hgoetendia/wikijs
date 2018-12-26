@@ -71,11 +71,8 @@ Replace tab for 2 spaces identation in `rjsx-mode`
 
 ## jsconfig.json files
 
-The file jsconfig.json must exist in your project folder, this is a sample:
+The file <a href="/uploads/reactjs/jsconfig.json" download>jsconfig.json</a> must exist in your project folder, this is a sample:
 
-[Jsconfig](/uploads/reactjs/jsconfig.json "Jsconfig")
-
-<a href="/uploads/reactjs/jsconfig.json" download>Click to Download</a>
 
 ```json
 {
