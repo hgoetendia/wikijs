@@ -16,6 +16,8 @@ ssh -vvv -N -L localhost:8002:192.168.5.10:5432 myuserexample@192.168.214.10
 * Example target username: horacio
 
 
+From source:
+
 ```sh
 ssh-keygen -t rsa
 Generating public/private rsa key pair.
@@ -40,7 +42,9 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-Next execute ssh-copy-id (you will need horacio's password)
+Next execute ssh-copy-id (you will need horacio's password).
+
+From source:
 
 ```sh
 ssh-copy-id horacio@target
