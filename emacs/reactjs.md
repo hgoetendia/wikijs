@@ -75,6 +75,8 @@ The file jsconfig.json must exist in your project folder, this is a sample:
 
 [Jsconfig](/uploads/reactjs/jsconfig.json "Jsconfig")
 
+<a href="/uploads/reactjs/jsconfig.json" download>Click to Download</a>
+
 ```json
 {
   "compilerOptions": {
