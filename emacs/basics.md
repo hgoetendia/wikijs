@@ -21,9 +21,16 @@ cd emacs-26.1
 sudo make install
 ```
 
-~~~~
-blable
-~~~~
+Check version
+
+
+```sh
+emacs --version
+GNU Emacs 26.1
+```
+
+
+
 
 To start emacs
 ```sh
