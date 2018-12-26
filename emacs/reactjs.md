@@ -16,10 +16,15 @@ It is for sintax higlighting and identation.
 (add-to-list 'auto-mode-alist '("\\.js$" . rjsx-mode))
 ```
 
-# Identation 2 spaces
+# Identation
+
+Replace tab for 2 spaces identation in `rjsx-mode`
 
 
 ```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Replace tab for 2 spaces identation in rjsx-mode
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (add-hook 'rjsx-mode-hook
           (lambda ()
             (setq indent-tabs-mode nil) ;;Use space instead of tab
