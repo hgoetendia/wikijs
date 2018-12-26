@@ -75,6 +75,13 @@ Ref: https://github.com/ananthakumaran/tide
 						
 ```
 
+Format options:
+
+
+```lisp
+(setq tide-format-options '(:insertSpaceAfterFunctionKeywordForAnonymousFunctions t :placeOpenBraceOnNewLineForFunctions nil))
+```
+
 use-package:  Another way to load `tide` settings.
 
 ```lisp
@@ -85,14 +92,6 @@ use-package:  Another way to load `tide` settings.
   :hook ((typescript-mode . tide-setup)
          (typescript-mode . tide-hl-identifier-mode)
          (before-save . tide-format-before-save)))
-```
-
-
-Format options:
-
-
-```lisp
-(setq tide-format-options '(:insertSpaceAfterFunctionKeywordForAnonymousFunctions t :placeOpenBraceOnNewLineForFunctions nil))
 ```
 
 
