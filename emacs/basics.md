@@ -166,6 +166,7 @@ F12 to toggle neotree window
 # Return to the previously edit position
 When you visit a file, point goes to the last place where it was when you previously visited the same file.
 
+For GNU Emacs 24.5 and older versions
 
 ```lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -175,4 +176,11 @@ When you visit a file, point goes to the last place where it was when you previo
 (setq-default save-place t)
 ```
 
+For GNU Emacs 25.1 and newer versions
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; A la hora de cargar te devuelva a la misma posicion donde estabas;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(save-place-mode 1) 
+```
 
