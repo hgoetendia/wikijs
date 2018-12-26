@@ -13,6 +13,7 @@ ssh -vvv -N -L localhost:8002:192.168.5.10:5432 myuserexample@192.168.214.10
 # SSH login without password
 * Source host: source
 * Target host: target
+* Example target username: horacio
 
 
 ```sh
@@ -38,6 +39,20 @@ The key's randomart image is:
 |.o=..            |
 +----[SHA256]-----+
 ```
+
+Next
+
+```sh
+ssh-copy-id horacio@target
+```
+
+Alternatively if you dont have `ssh-copy-id` you can execute this from source:
+
+```sh
+cat ~/.ssh/id_rsa.pub | ssh horacio@target "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >>  ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
+```
+
+
 
 
 
