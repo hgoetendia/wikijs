@@ -26,3 +26,11 @@ sudo yum install nodejs
 node --version
 ```
 
+## From NodeSource
+As root execute:
+
+```sh
+curl -sL https://rpm.nodesource.com/setup_11.x | bash -
+sudo yum install -y nodejs
+```
+
