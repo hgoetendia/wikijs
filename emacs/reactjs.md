@@ -4,8 +4,9 @@
 # RJSX mode and Tide
 * Install rjsx-mode package it needs Emacs 24.4 or greater, It is for sintax higlighting and identation.
 * Install tide package, you will need install [Nodejs](/javascript/nodejs).
+* Install company package.
 
-# Load .js files in rjsx-mode
+## Load .js files in rjsx-mode
 
 
 ```lisp
@@ -15,7 +16,7 @@
 (add-to-list 'auto-mode-alist '("\\.js$" . rjsx-mode))
 ```
 
-# Load .tsx files in rjsx-mode
+## Load .tsx files in rjsx-mode
 
 ```lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -25,8 +26,7 @@
 ```
 
 
-
-# Identation
+## Identation and setup-tide-mode
 
 Replace tab for 2 spaces identation in `rjsx-mode`
 
@@ -45,5 +45,25 @@ Replace tab for 2 spaces identation in `rjsx-mode`
 	)) 
 						
 ```
+
+## jsconfig.json files
+
+Example:
+
+
+```json
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "checkJs": true,
+    "jsx": "react",
+    "lib": [ "dom", "es2017" ]
+  }
+}
+```
+
+
 
 
