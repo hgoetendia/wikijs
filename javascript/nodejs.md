@@ -16,8 +16,14 @@ make
 sudo make install
 ```
 
-## From the EPEL Repository (Centos)
+## From the EPEL Repository 
 
+Tested in Centos
+
+
+```sh
 sudo yum install epel-release
 sudo yum install nodejs
 node --version
+```
+
