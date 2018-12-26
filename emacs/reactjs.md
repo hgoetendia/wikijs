@@ -49,7 +49,7 @@ Replace tab for 2 spaces identation in `rjsx-mode`
 
 ## jsconfig.json files
 
-Example:
+The file jsconfig.json must exist in your project folder, this is a sample:
 
 
 ```json
