@@ -26,14 +26,36 @@
 ```
 
 
-## Identation and setup-tide-mode
+## Setup tide-mode and rjsx-mode
 
 Replace tab for 2 spaces identation in `rjsx-mode`
+
+```lisp
+(defun setup-tide-mode ()
+  (interactive)
+  (tide-setup)
+  (flycheck-mode +1)
+  (setq flycheck-check-syntax-automatically '(save mode-enabled))
+  (eldoc-mode +1)
+  (tide-hl-identifier-mode +1)
+  ;; company is an optional dependency. You have to
+  ;; install it separately via package-install
+  ;; `M-x package-install [ret] company`
+  (company-mode +1))
+
+;; aligns annotation to the right hand side
+(setq company-tooltip-align-annotations t)
+
+;; formats the buffer before saving
+(add-hook 'before-save-hook 'tide-format-before-save)
+
+(add-hook 'typescript-mode-hook #'setup-tide-mode)
+```
 
 
 ```lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;                                                                                                                                                                               
-;; Replace tab for 2 spaces identation in rjsx-mode                                                                                                                                                            
+;; Replace tab for 2 spaces identation in rjsx-mode, and invoke setup-tide-mode                                                                                                                                                            
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;                                                                                                                                                                               
 
 (add-hook 'rjsx-mode-hook
@@ -42,7 +64,7 @@ Replace tab for 2 spaces identation in `rjsx-mode`
             (setq js-indent-level 2) ;;space width is 2 (default is 4)                                                                                                                                         
             (setq js2-strict-missing-semi-warning nil) ;;disable the semicolon warning                                                                                                                         
             (when (string-equal "js" (file-name-extension buffer-file-name))
-              (setup-tide-mode)) ;; Setup tide before js
+              (setup-tide-mode)) ;; call setup-tide-mode 
           ))
 						
 ```
@@ -51,6 +73,7 @@ Replace tab for 2 spaces identation in `rjsx-mode`
 
 The file jsconfig.json must exist in your project folder, this is a sample:
 
+[Jsconfig](/uploads/reactjs/jsconfig.json "Jsconfig")
 
 ```json
 {
