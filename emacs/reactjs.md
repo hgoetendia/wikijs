@@ -5,6 +5,7 @@
 * Install rjsx-mode package it needs Emacs 24.4 or greater, It is for sintax higlighting and identation.
 * Install tide package, you will need install [Nodejs](/javascript/nodejs).
 * Install company package.
+* Install use-package package.
 
 ## Load .js files in rjsx-mode
 
