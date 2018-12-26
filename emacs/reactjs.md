@@ -34,9 +34,9 @@ Ref: https://github.com/ananthakumaran/tide
 
 
 ```lisp
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;                                                                                                                                                                               
-;; Setup-tide-mode                                                                                                                                                           
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;                                                                                                                                                                               
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Setup-tide-mode
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defun setup-tide-mode ()
   (interactive)
   (tide-setup)
@@ -60,15 +60,15 @@ Ref: https://github.com/ananthakumaran/tide
 
 
 ```lisp
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;                                                                                                                                                                               
-;; Replace tab for 2 spaces identation in rjsx-mode, and invoke setup-tide-mode                                                                                                                                                            
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;                                                                                                                                                                               
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Replace tab for 2 spaces identation in rjsx-mode, and invoke setup-tide-mode
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (add-hook 'rjsx-mode-hook
           (lambda ()
-            (setq indent-tabs-mode nil) ;;Use space instead of tab                                                                                                                                             
-            (setq js-indent-level 2) ;;space width is 2 (default is 4)                                                                                                                                         
-            (setq js2-strict-missing-semi-warning nil) ;;disable the semicolon warning                                                                                                                         
+            (setq indent-tabs-mode nil) ;;Use space instead of tab
+            (setq js-indent-level 2) ;;space width is 2 (default is 4)
+            (setq js2-strict-missing-semi-warning nil) ;;disable the semicolon warning
             (when (string-equal "js" (file-name-extension buffer-file-name))
               (setup-tide-mode)) ;; call setup-tide-mode 
           ))
