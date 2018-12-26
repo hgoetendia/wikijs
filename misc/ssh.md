@@ -40,7 +40,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-Next
+Next execute ssh-copy-id (you will need horacio's password)
 
 ```sh
 ssh-copy-id horacio@target
