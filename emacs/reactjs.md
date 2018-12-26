@@ -2,6 +2,9 @@
 <!-- SUBTITLE: A quick summary of Reactjs -->
 
 # RJSX mode and Tide
+
+Ref: https://github.com/ananthakumaran/tide
+
 * Install rjsx-mode package it needs Emacs 24.4 or greater, It is for sintax higlighting and identation.
 * Install tide package, you will need install [Nodejs](/javascript/nodejs).
 * Install company package.
@@ -72,7 +75,7 @@
 						
 ```
 
-use-package
+use-package:  Load `tide` settings alternative 
 
 ```lisp
 
@@ -82,6 +85,14 @@ use-package
   :hook ((typescript-mode . tide-setup)
          (typescript-mode . tide-hl-identifier-mode)
          (before-save . tide-format-before-save)))
+```
+
+
+Format options:
+
+
+```lisp
+(setq tide-format-options '(:insertSpaceAfterFunctionKeywordForAnonymousFunctions t :placeOpenBraceOnNewLineForFunctions nil))
 ```
 
 
