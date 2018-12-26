@@ -1,10 +1,27 @@
 <!-- TITLE: Emacs/Basics -->
 
 # Install
+Default emacs package in Centos 7.5 is Emacs 24.3.1
 
 ```sh
 sudo yum install -y emacs
 ```
+
+If you prefer other versions you can install it from sources:
+
+Example: Emacs 26.1
+
+```sh
+sudo yum -y install libXpm-devel libjpeg-turbo-devel openjpeg-devel openjpeg2-devel turbojpeg-devel giflib-devel libtiff-devel gnutls-devel libxml2-devel GConf2-devel dbus-devel wxGTK-devel gtk3-devel wget gcc ncurses-devel.x86_64
+wget http://git.savannah.gnu.org/cgit/emacs.git/snapshot/emacs-26.1.tar.gz
+tar zxvf emacs-26.1.tar.gz
+cd emacs-26.1
+./autogen.sh
+./configure --without-makeinfo # incase makeinfo is not available on your system: Example Centos 7 else `./configure` would do
+sudo make install
+```
+
+
 
 To start emacs
 ```sh
@@ -14,7 +31,6 @@ emacs
 # .emacs file
 
 Create startup configuration file `.emacs`
-
 
 
 ```lisp
