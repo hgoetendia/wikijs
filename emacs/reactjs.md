@@ -16,5 +16,15 @@ It is for sintax higlighting and identation.
 (add-to-list 'auto-mode-alist '("\\.js$" . rjsx-mode))
 ```
 
+# Identation 2 spaces
+
+
+```lisp
+(add-hook 'rjsx-mode-hook
+          (lambda ()
+            (setq indent-tabs-mode nil) ;;Use space instead of tab
+            (setq js-indent-level 2) ;;space width is 2 (default is 4)
+            (setq js2-strict-missing-semi-warning nil))) ;;disable the semicolon warning
+```
 
 
