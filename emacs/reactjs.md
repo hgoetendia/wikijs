@@ -75,7 +75,7 @@ Ref: https://github.com/ananthakumaran/tide
 						
 ```
 
-use-package:  Load `tide` settings alternative 
+use-package:  Another way to load `tide` settings.
 
 ```lisp
 
