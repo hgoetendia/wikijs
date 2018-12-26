@@ -4,6 +4,8 @@
 # RJSX mode
 Install rjsx-mode, it needs Emacs 24.4 or greater.
 
+It is for sintax higlighting and identation.
+
 
 # Load .js files in rjsx-mode
 
