@@ -29,9 +29,11 @@
 
 ## Setup tide-mode and rjsx-mode
 
-Replace tab for 2 spaces identation in `rjsx-mode`
 
 ```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;                                                                                                                                                                               
+;; Setup-tide-mode                                                                                                                                                           
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;                                                                                                                                                                               
 (defun setup-tide-mode ()
   (interactive)
   (tide-setup)
@@ -69,6 +71,19 @@ Replace tab for 2 spaces identation in `rjsx-mode`
           ))
 						
 ```
+
+use-package
+
+```lisp
+
+(use-package tide
+  :ensure t
+  :after (typescript-mode company flycheck)
+  :hook ((typescript-mode . tide-setup)
+         (typescript-mode . tide-hl-identifier-mode)
+         (before-save . tide-format-before-save)))
+```
+
 
 ## jsconfig.json file
 
