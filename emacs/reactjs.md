@@ -1,5 +1,4 @@
 <!-- TITLE: Emacs/Reactjs -->
-<!-- SUBTITLE: A quick summary of Reactjs -->
 
  Download emacs configuration <a href="/uploads/emacs/dotemacsjsreact.lisp" download> file</a> and rename to .emacs
 # RJSX mode and Tide
