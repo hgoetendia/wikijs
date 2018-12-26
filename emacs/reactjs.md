@@ -3,7 +3,7 @@
 
 # RJSX mode and Tide
 * Install rjsx-mode package it needs Emacs 24.4 or greater, 
-* Install tide.
+* Install tide, you will need install [Nodejs](/javascript/nodejs).
 
 It is for sintax higlighting and identation.
 
