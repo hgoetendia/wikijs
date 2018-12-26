@@ -43,8 +43,8 @@ Replace tab for 2 spaces identation in `rjsx-mode`
             (setq indent-tabs-mode nil) ;;Use space instead of tab
             (setq js-indent-level 2) ;;space width is 2 (default is 4)
             (setq js2-strict-missing-semi-warning nil) ;;disable the semicolon warning
-						(when (string-equal "tsx" (file-name-extension buffer-file-name))
-              (setup-tide-mode))   ;;Setup tide in tsx files
+            (when (string-equal "tsx" (file-name-extension buffer-file-name))
+							(setup-tide-mode))   ;;Setup tide in tsx files
 						)) 
 						
 ```
