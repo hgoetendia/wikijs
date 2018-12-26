@@ -45,7 +45,7 @@ Replace tab for 2 spaces identation in `rjsx-mode`
             (setq js2-strict-missing-semi-warning nil) ;;disable the semicolon warning
             (when (string-equal "tsx" (file-name-extension buffer-file-name))
 							(setup-tide-mode))   ;;Setup tide in tsx files
-						)) 
+	)) 
 						
 ```
 
