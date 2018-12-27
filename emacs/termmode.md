@@ -1,6 +1,4 @@
 <!-- TITLE: Emacs/Term-mode -->
-<!-- SUBTITLE: A quick summary of Termmode -->
-
 # char mode
 Like traditional term.
 
