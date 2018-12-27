@@ -16,7 +16,7 @@
 * [Emacs](/emacs)
 
 # Linux
-* [Set up time and timezone](/linux/timezone)
+* [Setup time and timezone](/linux/timezone)
 * [Strace](/linux/strace)
 * [Users](/linux/users)
 
