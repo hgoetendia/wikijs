@@ -36,3 +36,5 @@ sudo yum install ntp
 sudo systemctl start ntpd
 sudo systemctl enable ntpd
 ```
+
+Note: In this stage your changes will be permanetly
