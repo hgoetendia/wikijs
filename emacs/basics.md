@@ -206,3 +206,9 @@ For GNU Emacs 25.1 and newer versions
 ```
 
 
+
+
+# All together
+
+
+
