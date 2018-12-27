@@ -5,5 +5,5 @@
 * [ReactJS](/emacs/reactjs)
 * [Term-mode](/emacs/termmode)
 
-> * [Term-mode](/emacs/termmode)
+> ## [Term-mode](/emacs/termmode)
 
