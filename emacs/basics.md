@@ -203,6 +203,17 @@ F12 to toggle neotree window
 ![Neotree 2](/uploads/emacs/neotree-2.png "Neotree 2")
 
 
+# Fix MacOSX meta key issue
+
+
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;Cambiamos la tecla meta alt a q no tenga funcion esto para MACOS;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq mac-option-modifier nil)
+
+```
+
 # Look and feel
 
 ```lisp
@@ -313,6 +324,11 @@ F12 to toggle neotree window
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'neotree)
   (global-set-key [f12] 'neotree-toggle)
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;Cambiamos la tecla meta alt a q no tenga funcion esto para MACOS;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq mac-option-modifier nil)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;Look And Feel ( Coloreado );;;;;;;;;;;;;;;;;;;;;;;;;
