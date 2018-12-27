@@ -38,3 +38,11 @@ sudo systemctl enable ntpd
 ```
 
 Note: In this stage your changes will be permanetly
+
+
+# Alternative
+
+```sh
+sudo mv /etc/localtime /etc/localtime.bak
+sudo ln -s /usr/share/zoneinfo/America/Lima /etc/localtime
+```
