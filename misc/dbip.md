@@ -15,5 +15,7 @@ FROM
 WHERE 
 	addr_type = 'ipv4' AND  
 	ip_start <= unhex(CONV(INET_ATON('190.187.64.106'),10,16))  
-ORDER BY ip_start DESC LIMIT 1;
+ORDER BY 
+	ip_start 
+DESC LIMIT 1;
 ```
