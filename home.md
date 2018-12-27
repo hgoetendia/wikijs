@@ -37,8 +37,9 @@
 
 # Databases
 
-## MySQL
+
 * [Jump slave error](/mysql/basics#jump-slave-error)
+* [MySQL](/mysql)
 
 ## PostgreSQL
 
