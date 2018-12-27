@@ -1,4 +1,4 @@
-<!-- TITLE: Mysql/List days of current month -->
+<!-- TITLE: MySQL/List days of current month -->
 
 
 ```sql
