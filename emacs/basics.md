@@ -203,6 +203,56 @@ F12 to toggle neotree window
 ![Neotree 2](/uploads/emacs/neotree-2.png "Neotree 2")
 
 
+# Look and feel
+
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;Look And Feel ( Coloreado );;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :background "gray0" :foreground "green"
+			 :inverse-video nil :box nil :strike-through nil
+			 :overline nil :underline nil :slant normal
+			 weight normal :width normal :family "monospace"))))
+ '(background "black")
+ '(font-lock-builtin-face ((((class color) (background dark))
+			    (:foreground "Turquoise"))))
+ '(font-lock-comment-face ((t (:foreground "red"))))
+ '(font-lock-constant-face ((((class color) (background dark))
+			     (:bold t :foreground "DarkOrchid"))))
+ '(font-lock-doc-string-face ((t (:foreground "yellow"))))
+ '(font-lock-function-name-face ((t (:foreground "green1"))))
+ '(font-lock-keyword-face ((t (:foreground "DeepSkyBlue"))))
+ '(font-lock-preprocessor-face ((t (:italic nil :foreground "CornFlowerBlue"))))
+ '(font-lock-reference-face ((t (:foreground "DodgerBlue"))))
+ '(font-lock-string-face ((t (:foreground "gold2")))))
+```
+
+## Mark selected text
+
+
+```lisp
+;;;;;;;;Para que aparezca coloreado cuando seleccionas un texto
+(transient-mark-mode t)
+
+```
+
+## Comments in blue
+
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;Comentario en azul;
+(set-face-foreground 'font-lock-comment-face "Red" )
+(set-variable font-lock-comment-face 'font-lock-comment-face)
+```
+
+
+
+
+
 # All together
 
 
@@ -264,6 +314,35 @@ F12 to toggle neotree window
 (require 'neotree)
   (global-set-key [f12] 'neotree-toggle)
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;Look And Feel ( Coloreado );;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :background "gray0" :foreground "green"
+			 :inverse-video nil :box nil :strike-through nil
+			 :overline nil :underline nil :slant normal
+			 weight normal :width normal :family "monospace"))))
+ '(background "black")
+ '(font-lock-builtin-face ((((class color) (background dark))
+			    (:foreground "Turquoise"))))
+ '(font-lock-comment-face ((t (:foreground "red"))))
+ '(font-lock-constant-face ((((class color) (background dark))
+			     (:bold t :foreground "DarkOrchid"))))
+ '(font-lock-doc-string-face ((t (:foreground "yellow"))))
+ '(font-lock-function-name-face ((t (:foreground "green1"))))
+ '(font-lock-keyword-face ((t (:foreground "DeepSkyBlue"))))
+ '(font-lock-preprocessor-face ((t (:italic nil :foreground "CornFlowerBlue"))))
+ '(font-lock-reference-face ((t (:foreground "DodgerBlue"))))
+ '(font-lock-string-face ((t (:foreground "gold2")))))
+
+;;;;;;;;Para que aparezca coloreado cuando seleccionas un texto
+(transient-mark-mode t)
+;;;;;;;;;;;;;;;;;;;;;;;;Comentario en azul;
+(set-face-foreground 'font-lock-comment-face "Red" )
 
 ```
 
