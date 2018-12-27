@@ -1,7 +1,5 @@
-<!-- TITLE: Mysql -->
+<!-- TITLE: Mysql/List days of current month -->
 <!-- SUBTITLE: A quick summary of Mysql -->
-
-# List days of current month:
 
 
 ```sql
