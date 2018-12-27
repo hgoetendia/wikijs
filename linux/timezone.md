@@ -26,7 +26,7 @@ NTP synchronized: yes
       DST active: n/a
 ```
 
-> In this stage if you restart your computer you will lost your date time settings.
+> In this stage if you restart you will lost your date time settings.
 
  # Configure NTP Synchronization
  
