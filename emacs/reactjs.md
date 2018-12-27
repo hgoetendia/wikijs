@@ -10,7 +10,7 @@ Ref: https://github.com/ananthakumaran/tide
 * Install `company` package.
 * Install `use-package` package (optional).
 
-## Tide
+## TIDE
 
 
 ```lisp
@@ -42,7 +42,7 @@ Ref: https://github.com/ananthakumaran/tide
 							      :placeOpenBraceOnNewLineForFunctions nil))
 ```
 
-## RJSX
+## RJSX-mode
 
 Load .js and .tsx files in rjsx-mode
 
