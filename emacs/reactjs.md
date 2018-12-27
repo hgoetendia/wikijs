@@ -79,7 +79,6 @@ Load .js and .tsx files in rjsx-mode
 Another way to load `tide` settings.
 
 ```lisp
-
 (use-package tide
   :ensure t
   :after (typescript-mode company flycheck)
