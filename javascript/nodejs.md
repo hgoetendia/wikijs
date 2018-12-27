@@ -34,3 +34,20 @@ curl -sL https://rpm.nodesource.com/setup_11.x | bash -
 sudo yum install -y nodejs
 ```
 
+
+
+## Error: ENOSPC: System limit for number of file watchers reached
+
+Add in `/etc/sysctl.conf`
+
+
+```text
+fs.inotify.max_user_watches = 524288
+```
+
+Then 
+```sh
+sysctl -p
+```
+
+to read the new setting.
