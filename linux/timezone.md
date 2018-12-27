@@ -25,4 +25,14 @@ NTP synchronized: yes
  RTC in local TZ: no
       DST active: n/a
 ```
+
+
+Note: In this stage if you restart your computer you will lost your settings.
+ # Configure NTP Synchronization
  
+
+```sh
+sudo yum install ntp
+sudo systemctl start ntpd
+sudo systemctl enable ntpd
+```
