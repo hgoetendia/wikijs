@@ -50,6 +50,17 @@ emacs .emacs
 
 ![Filedotemacs](/uploads/emacs/filedotemacs.png "Filedotemacs")
 
+# Inhibit initial splash screen
+
+
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Inhibir splash screen;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq inhibit-splash-screen t)
+```
+
+
 # Repos
 
  Repo `gnu` and `melpa` to install emacs addons.
