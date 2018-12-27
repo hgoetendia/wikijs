@@ -1,6 +1,6 @@
 <!-- TITLE: Linux/Timezone -->
 
-# Set up the timezone.
+# Set up timezone.
 
 ```sh
 timedatectl list-timezones
@@ -40,7 +40,7 @@ sudo systemctl enable ntpd
 Note: In this stage your changes will be permanetly
 
 
-# Alternative
+# Alternative to setup timezone
 
 ```sh
 sudo mv /etc/localtime /etc/localtime.bak
