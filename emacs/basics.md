@@ -343,6 +343,8 @@ F12 to toggle neotree window
 (transient-mark-mode t)
 ;;;;;;;;;;;;;;;;;;;;;;;;Comentario en azul;
 (set-face-foreground 'font-lock-comment-face "Red" )
+(set-variable font-lock-comment-face 'font-lock-comment-face)
+
 
 ```
 
