@@ -26,6 +26,7 @@ NTP synchronized: yes
       DST active: n/a
 ```
 
+> Date and time changes.
 
 Note: In this stage if you restart your computer you will lost your settings.
  # Configure NTP Synchronization
