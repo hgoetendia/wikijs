@@ -5,9 +5,9 @@
 SELECT 
 	s.start_date + INTERVAL (days.d) DAY  AS my_date 
 FROM ( 
-	SELECT LAST_DAY(CURRENT_DATE) + INTERVAL 1 DAY - INTERVAL 1 MONTH  AS start_date, 
-	LAST_DAY(CURRENT_DATE) AS end_date 
-	) AS s JOIN days ON  days.d <= DATEDIFF(s.end_date, s.start_date);
+						SELECT LAST_DAY(CURRENT_DATE) + INTERVAL 1 DAY - INTERVAL 1 MONTH  AS start_date, 
+						LAST_DAY(CURRENT_DATE) AS end_date 
+					) AS s JOIN days ON  days.d <= DATEDIFF(s.end_date, s.start_date);
 ```
 
 Output:
