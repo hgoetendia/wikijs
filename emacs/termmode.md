@@ -1,4 +1,4 @@
-<!-- TITLE: Emacs/Term -->
+<!-- TITLE: Emacs/Term-mode -->
 <!-- SUBTITLE: A quick summary of Termmode -->
 
 # char mode
