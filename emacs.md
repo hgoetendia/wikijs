@@ -5,4 +5,4 @@
 * [ReactJS](/emacs/reactjs)
 * [Term-mode](/emacs/termmode)
 
-## [Google](https://google.co.in)
+## <a href="/emacs/termmode" Term-mode>jsconfig.json</a>
