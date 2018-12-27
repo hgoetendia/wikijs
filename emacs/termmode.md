@@ -1,4 +1,6 @@
 <!-- TITLE: Emacs/Term-mode -->
+
+`M-x ansi-term`
 # char mode
 Like traditional term.
 
