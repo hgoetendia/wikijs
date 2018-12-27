@@ -37,7 +37,7 @@ sudo systemctl start ntpd
 sudo systemctl enable ntpd
 ```
 
-Note: In this stage your changes will be permanetly
+> In this stage your changes will be permanetly
 
 
 # Alternative to setup timezone
