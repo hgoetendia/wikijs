@@ -30,7 +30,7 @@ Execute `M-x sql-mysql` for interactive mode.
                   (sql-server "localhost")
                   (sql-user "myotheruser")
                   (sql-password "userpassword")
-									(sql-database "mydatabase1")
+                  (sql-database "mydatabase1")
                 )
         ))
 
