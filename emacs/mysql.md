@@ -51,3 +51,8 @@ Execute `M-x sql-mysql` for interactive mode.
 Then
 
 `M-x mydatabaseconn`
+
+# SQLi
+
+Send selected query region to sql engine  `C-c C-r` 
+
