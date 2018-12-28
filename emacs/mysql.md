@@ -49,7 +49,7 @@ Execute `M-x sql-mysql` for interactive mode.
   (sql-connect connection))
 ```
 
-Open a windows and set `sql-mode` then `M-x mydatabaseconn` to load SQLi
+Open a window and set `sql-mode` then `M-x mydatabaseconn` to load SQLi
 
 # SQLi
 
