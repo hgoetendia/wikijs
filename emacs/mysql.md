@@ -49,11 +49,11 @@ Execute `M-x sql-mysql` for interactive mode.
   (sql-connect connection))
 ```
 
-Then
-
-`M-x mydatabaseconn`
+Open a windows and set `sql-mode` then `M-x mydatabaseconn` to load SQLi
 
 # SQLi
 
 Send selected query region to sql engine  `C-c C-r` 
+
+![Sqli](/uploads/emacs/sqli.png "Sqli")
 
