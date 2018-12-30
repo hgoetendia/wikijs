@@ -21,11 +21,9 @@
 
 
 # Web servers
-## Nginx
+* [Nginx](/nginx)
 
-* [Nginx basic configuration](/nginx/checkconfig)
 
-* [Add letsencrypt configuration](/nginx/letsencrypt)
 
 ## Apache
 
