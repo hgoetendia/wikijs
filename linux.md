@@ -2,6 +2,7 @@
 <!-- SUBTITLE: A quick summary of Linux -->
 
 
+# Misc
 * [Setup time and timezone](/linux/timezone)
 * [Strace](/linux/strace)
 * [Users](/linux/users)
