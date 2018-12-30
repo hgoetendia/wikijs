@@ -55,3 +55,30 @@ var Hello = React.createClass({
 });
 ```
 
+
+# Example
+
+  
+```javascript
+render() {    
+	
+    var graphList = this.state.dashboardUsersData.map(function (userInfo, index) {
+      return <Row style={rowStyle} gutter={0} justify="start" key={index}>
+        <Col md={24} sm={24} xs={24} style={colStyle}>
+          <ContentHolder>
+            <DashboardCharts data={userInfo.dataOfMonth} title={userInfo.userInfo.name} />
+          </ContentHolder>
+        </Col>
+      </Row>
+    });
+
+
+    return (
+          {
+            <ul>{graphList}</ul>
+          }
+    );
+}
+```
+
+
