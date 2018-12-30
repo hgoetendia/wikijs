@@ -8,10 +8,9 @@
 
 ## C/C++
 
-## JavaScript
-* [Date and time](/javascript/datetime)
-* [Nodejs](/javascript/nodejs)
-* [ReactJS](/javascript/reactjs)
+## Javascript
+* [Javascript](/javascript)
+
 
 # IDEs
 * [Emacs](/emacs)
