@@ -11,7 +11,7 @@
 ## JavaScript
 * [Date and time](/javascript/datetime)
 * [Nodejs](/javascript/nodejs)
-* [ReactJS](/javascript/reacjs)
+* [ReactJS](/javascript/reactjs)
 
 # IDEs
 * [Emacs](/emacs)
