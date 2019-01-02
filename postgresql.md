@@ -16,18 +16,11 @@ We need create data directory and other configuration files.
 ```sh
 sudo /usr/pgsql-11/bin/postgresql-11-setup initdb
 ```
-
 # Enabling and starting service
 
 ```sh
 sudo systemctl enable postgresql-11.service
 sudo systemctl start postgresql-11.service
-```
-
-# Setting password for `postgres` user
-
-```pgsql
-postgres=# \password postgres
 ```
 # Checking
 As root
@@ -35,3 +28,9 @@ As root
 ```sh
 su - postgres -c "psql"
 ```
+# Setting password for `postgres` user
+
+```pgsql
+postgres=# \password postgres
+```
+
