@@ -1,5 +1,5 @@
 <!-- TITLE: PostgreSQL -->
 
 
-[Install](/postgresql/install)
+* [Install](/postgresql/install)
 
