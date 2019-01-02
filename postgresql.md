@@ -25,15 +25,12 @@ sudo systemctl start postgresql-11.service
 # Checking
 As root
 
-
-```sh
 ```sh
 su - postgres -c "psql"
 psql (11.1)
 Type "help" for help.
 
 postgres=#
-```
 ```
 
 # Setting password for `postgres` user
