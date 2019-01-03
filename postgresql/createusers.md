@@ -17,6 +17,21 @@ As postgres user
 
 
 ```sh
-bash-4.2$ createdb ws_gateway
+bash-4.2$ createdb mydb
+```
+
+# Setting password and privileges
+
+
+```sh
+bash-4.2$ psql
+psql (11.1)
+Type "help" for help.
+
+postgres=# alter user juan with encrypted password 'mysecretpassword';
+ALTER ROLE
+postgres=# grant all privileges on database mydb to juan; 
+GRANT
+postgres=# 
 ```
 
