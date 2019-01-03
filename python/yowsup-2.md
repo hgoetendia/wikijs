@@ -131,3 +131,21 @@ $ yowsup-cli demos -c auth.txt -y
 ```
 
 
+
+# Solution to send images issue:
+
+Use this fork:
+
+```sh
+git clone https://github.com/AragurDEV/yowsup.git
+
+```
+
+```sh
+sudo pip3.4  install xvfbwrapper
+sudo yum install -y python-xvfbwrapper.noarch
+cd yowsup
+sudo python3.4 setup.py install
+```
+
+
