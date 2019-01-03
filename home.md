@@ -9,7 +9,7 @@
 ## C/C++
 
 ## Python
-* [Flexbox](/python)
+* [Python](/python)
 
 ## Javascript
 * [Javascript](/javascript)
