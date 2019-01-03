@@ -2,5 +2,5 @@
 
 
 * [Install](/postgresql/install)
-* [Creating users](/postgresql/createusers)
+* [Creating users/databases](/postgresql/createusers)
 
