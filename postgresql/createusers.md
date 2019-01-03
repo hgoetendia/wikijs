@@ -95,7 +95,7 @@ host    replication     all             ::1/128                 ident
 ```
 
 
-After that you need reload config settings without restarting.
+After that you need reload config settings without restarting. https://wiki.thehappymoon.com/postgresql/install#reload-config-settings-without-restarting
 
 
 Upon installation Postgres is set up to use "ident" authentication, meaning that it associates Postgres roles with a matching Unix/Linux system account. If a Postgres role exists, it can be signed in by logging into the associated Linux system account.
