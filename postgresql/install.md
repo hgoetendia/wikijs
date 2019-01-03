@@ -47,7 +47,7 @@ postgres=# \password postgres
 
 
 ```sh
-$ sudo systemctl reload postgresql
+$ sudo systemctl reload postgresql-11.service
 ```
 
 * Using `pg_ctl`
