@@ -37,10 +37,66 @@ postgres=#
 
 # Log into PostgreSQL database
 
+Without password
 
 ```sh
 psql -h myhost -d mydb -U myuser
 ```
+
+With password
+
+
+```sh
+psql -d mydb -U myuser -W
+psql -h myhost -d mydb -U myuser -W
+```
+
+
+If you cant, change the config file `/var/lib/pgsql/11/data/pg_hba.conf` (PostgreSQL Ver 11)
+
+Original:
+
+
+```pgsql
+#TYPE  DATABASE        USER            ADDRESS                 METHOD
+
+#"local" is for Unix domain socket connections only
+local   all             all                                     peer
+#IPv4 local connections:
+host    all             all             127.0.0.1/32            ident
+#IPv6 local connections:
+host    all             all             ::1/128                 ident
+#Allow replication connections from localhost, by a user with the
+#replication privilege.
+local   replication     all                                     peer
+host    replication     all             127.0.0.1/32            ident
+host    replication     all             ::1/128                 ident
+```
+
+
+
+Replace "ident" with "md5", so they look like this:
+
+
+```pgsql
+#TYPE  DATABASE        USER            ADDRESS                 METHOD
+
+#"local" is for Unix domain socket connections only
+local   all             all                                     peer
+#IPv4 local connections:
+host    all             all             127.0.0.1/32            ident
+#IPv6 local connections:
+host    all             all             ::1/128                 ident
+#Allow replication connections from localhost, by a user with the
+#replication privilege.
+local   replication     all                                     peer
+host    replication     all             127.0.0.1/32            md5
+host    replication     all             ::1/128                 md5
+```
+
+
+
+Upon installation Postgres is set up to use "ident" authentication, meaning that it associates Postgres roles with a matching Unix/Linux system account. If a Postgres role exists, it can be signed in by logging into the associated Linux system account.
 
 
 
