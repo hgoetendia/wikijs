@@ -23,7 +23,9 @@ bash-4.2$ createdb mydb
 # Setting password and privileges
 
 
-```sh
+
+
+```pgsql
 bash-4.2$ psql
 psql (11.1)
 Type "help" for help.
@@ -33,5 +35,7 @@ ALTER ROLE
 postgres=# grant all privileges on database mydb to juan; 
 GRANT
 postgres=# 
+
 ```
+
 
