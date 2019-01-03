@@ -23,3 +23,28 @@ cd yowsup
 sudo python3.4 setup.py install
 ```
 
+Upgrading version
+
+Backup the file env_android.py
+
+
+```sh
+cp /usr/lib/python3.4/site-packages/yowsup2-2.5.7-py3.4.egg/yowsup/env/env_android.py /tmp/env_android.py.backup
+```
+
+
+And apply these changes in the  /usr/lib/python3.4/site-packages/yowsup2-2.5.7-py3.4.egg/yowsup/env/env_android.py file
+
+
+```diff
+20c20
+<     _MD5_CLASSES = "uts7K11+PDyZE5R0ou+2Sw=="
+---
+>     _MD5_CLASSES = "YqW9KfOVL6cRD8aiNh8l6w=="
+23c23
+<     _VERSION = "2.17.337"
+---
+>     _VERSION = "2.18.45"
+```
+
+
