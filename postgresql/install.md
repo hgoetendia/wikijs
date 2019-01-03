@@ -43,7 +43,7 @@ postgres=# \password postgres
 
 # Reload config settings without restarting 
 
-* Usrion `systemctl`
+* Using `systemctl`
 
 
 ```sh
@@ -55,7 +55,9 @@ $ sudo systemctl reload postgresql-11.service
 As postgres user
 
 ```sh
-/usr/pgsql-11/bin/pg_ctl reload
+bash-4.2$ /usr/pgsql-11/bin/pg_ctl -D /var/lib/pgsql/11/data/ reload
+server signaled
+bash-4.2$ 
 ```
 
 * Using SQL
@@ -64,5 +66,14 @@ As postgres user
 ```sql
 SELECT pg_reload_conf();
 ```
+
+# Restart PostgreSQL
+
+
+```sh
+sudo systemctl restart postgresql-11.service
+```
+
+
 
 
