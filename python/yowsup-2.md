@@ -123,4 +123,11 @@ Then send a message
 $ yowsup-cli demos -c auth.txt -s 51997999999 "Hola mundo"
 ```
 
+Interactive mode
+
+
+```sh
+$ yowsup-cli demos -c auth.txt -y
+```
+
 
