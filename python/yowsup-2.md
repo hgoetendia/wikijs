@@ -138,10 +138,6 @@ Use this fork:
 
 ```sh
 git clone https://github.com/AragurDEV/yowsup.git
-
-```
-
-```sh
 sudo pip3.4  install xvfbwrapper
 sudo yum install -y python-xvfbwrapper.noarch
 cd yowsup
