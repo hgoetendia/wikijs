@@ -40,3 +40,29 @@ As postgres user
 ```pgsql
 postgres=# \password postgres
 ```
+
+# Reload config settings without restarting 
+
+* Usrion `systemctl`
+
+
+```sh
+$ sudo systemctl reload postgresql
+```
+
+* Using `pg_ctl`
+
+As postgres user
+
+```sh
+/usr/pgsql-11/bin/pg_ctl reload
+```
+
+* Using SQL
+
+
+```sql
+SELECT pg_reload_conf();
+```
+
+
