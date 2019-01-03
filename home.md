@@ -8,6 +8,9 @@
 
 ## C/C++
 
+## Python
+* [Flexbox](/python)
+
 ## Javascript
 * [Javascript](/javascript)
 
