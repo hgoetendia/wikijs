@@ -107,5 +107,18 @@ status: b'ok'
 price_expiration: 1544151913
 ```
 
+Create a file auth.txt with this information
+
+
+```text
+cc=51  #replace with your country code
+phone=51999999999  #replace with your phone number 
+password=sdfg+4zr54aNM= #your account's real password.
+```
+
+
+```sh
+$ yowsup-cli demos -c auth.txt -s 51997999999 "Hola mundo"
+```
 
 
