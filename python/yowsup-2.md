@@ -94,7 +94,7 @@ development please consider donating:
 http://openwhatsapp.org/yowsup/donate
 
 
-INFO:yowsup.common.http.warequest:b'{"status":"ok","login":"51999999999","type":"existing","edge_routing_info":"CAUIAg==","chat_dns_domain":"fb","pw":"4zr54aNM+jODiDsdfg2345=","expiration":4444444444.0,"kind":"free","price":"$0.99","cost":"0.99","currency":"USD","price_expiration":1547151113}\n'
+INFO:yowsup.common.http.warequest:b'{"status":"ok","login":"51999999999","type":"existing","edge_routing_info":"CAUIAg==","chat_dns_domain":"fb","pw":"3zr54a4M+jODiEsdfg2323=","expiration":4444444444.0,"kind":"free","price":"$0.99","cost":"0.99","currency":"USD","price_expiration":1547151113}\n'
 kind: b'free'
 cost: b'0.99'
 pw: b'sdfg+4zr54aNM='
