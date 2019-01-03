@@ -47,3 +47,65 @@ And apply these changes in the  /usr/lib/python3.4/site-packages/yowsup2-2.5.7-p
 ```
 
 
+# Testing
+
+
+```sh
+$ yowsup-cli registration --requestcode sms --phone 51999999999 --cc 51 --mcc 716 --mnc 06 --env android 
+
+yowsup-cli  v2.0.15
+yowsup      v2.5.7
+
+Copyright (c) 2012-2016 Tarek Galal
+http://www.openwhatsapp.org
+
+This software is provided free of charge. Copying and redistribution is
+encouraged.
+
+If you appreciate this software and you would like to support future
+development please consider donating:
+http://openwhatsapp.org/yowsup/donate
+
+
+INFO:yowsup.common.http.warequest:b'{"login":"51991731878","status":"sent","length":6,"method":"sms","retry_after":65,"sms_wait":65,"voice_wait":65}\n'
+method: b'sms'
+status: b'sent'
+login: b'51991731878'
+length: 6
+retry_after: 65
+```
+
+Then an SMS will arrive with a register code example: 602025
+
+
+```sh
+$ yowsup-cli registration --register 602025 --phone 51999999999 --cc 51 --env android
+yowsup-cli  v2.0.15
+yowsup      v2.5.7
+
+Copyright (c) 2012-2016 Tarek Galal
+http://www.openwhatsapp.org
+
+This software is provided free of charge. Copying and redistribution is
+encouraged.
+
+If you appreciate this software and you would like to support future
+development please consider donating:
+http://openwhatsapp.org/yowsup/donate
+
+
+INFO:yowsup.common.http.warequest:b'{"status":"ok","login":"51999999999","type":"existing","edge_routing_info":"CAUIAg==","chat_dns_domain":"fb","pw":"4zr54aNM+jODiDsdfg2345=","expiration":4444444444.0,"kind":"free","price":"$0.99","cost":"0.99","currency":"USD","price_expiration":1547151113}\n'
+kind: b'free'
+cost: b'0.99'
+pw: b'sdfg+4zr54aNM='
+login: b'51999999999'
+currency: b'USD'
+expiration: 4444444444.0
+price: b'$0.99'
+type: b'existing'
+status: b'ok'
+price_expiration: 1544151913
+```
+
+
+
