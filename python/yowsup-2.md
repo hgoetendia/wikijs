@@ -116,6 +116,8 @@ phone=51999999999  #replace with your phone number
 password=sdfg+4zr54aNM= #your account's real password.
 ```
 
+Then send a message
+
 
 ```sh
 $ yowsup-cli demos -c auth.txt -s 51997999999 "Hola mundo"
