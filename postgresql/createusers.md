@@ -22,9 +22,6 @@ bash-4.2$ createdb mydb
 
 # Setting password and privileges
 
-
-
-
 ```pgsql
 bash-4.2$ psql
 psql (11.1)
@@ -37,5 +34,15 @@ GRANT
 postgres=# 
 
 ```
+
+# Log into PostgreSQL database
+
+
+```sh
+psql -h myhost -d mydb -U myuser
+```
+
+
+
 
 
