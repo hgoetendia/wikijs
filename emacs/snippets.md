@@ -4,6 +4,7 @@
 
 Autocomplete structures with custom data
 
+In emacs command line:
 
 `M-x package-install`
 `Install package: yasnippet`
@@ -12,7 +13,7 @@ In bash:
 
 `mkdir -p~/.emacs.d/plugins/yasnippet`
 
-In `~/.emacs` file
+Add this to `~/.emacs` configfile
 
 ```lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
