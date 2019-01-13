@@ -1,6 +1,7 @@
 <!-- TITLE: Emacs -->
 
 * [Basics](/emacs/basics)
+* [Snippets](emacs/yasnippet)
 ---
 * [C/C++](/emacs/ccplusplus)
 * [ReactJS](/emacs/reactjs)
