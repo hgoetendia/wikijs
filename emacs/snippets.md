@@ -56,7 +56,7 @@ Save the file in a directory according to mode
 
 For example in `.emacs.d/snippets/rjsx-mode/consolelog.txt`
 
-When you need to use them in the right mode start typing conlog then press TAB key:
+When you need to use them in the right mode start typing conlog then press TAB key for complete:
 
 `conlo<TAB>`
 
