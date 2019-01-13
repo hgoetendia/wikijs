@@ -79,6 +79,16 @@ emacs .emacs
 To show package list: `M-x package-list-packages`
 
 ![Packages](/uploads/emacs/packages.png "Packages")
+
+## Install package
+
+Example:
+
+`M-x package-install`
+
+`Install package: yasnippet`
+
+
 # Backup folder
 Set the backup folder to avoid them.
 
