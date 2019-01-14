@@ -56,7 +56,20 @@ Alternatively if you dont have `ssh-copy-id` you can execute this from source:
 cat ~/.ssh/id_rsa.pub | ssh horacio@target "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >>  ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
 ```
 
-# 
+# SSH SOCKS proxy
+
+Local port: 12345
+myuser: targetIP user
+targetIP ssh listen port: 222 (default 22)
+
+
+```sh
+ssh -D 12345 myuser@targetIP -p222
+```
+
+If you are going to use a navigator with the proxy SOCKS will need these changes:
+
+![Captura De Pantalla De 2019 01 14 13 46 38](/uploads/ssh/captura-de-pantalla-de-2019-01-14-13-46-38.png "Captura De Pantalla De 2019 01 14 13 46 38")
 
 
 
