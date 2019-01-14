@@ -14,7 +14,7 @@ bash-4.2$
 
 Alternative from postgresql prompt:
 
-`create user juan with password 'secretpass';`
+`CREATE USER juan WITH PASSWORD 'secretpass';`
 
 Alternative from postgresql prompt:
 
@@ -22,7 +22,7 @@ Alternative from postgresql prompt:
 
 Grant role to user postgresql prompt:
 
-`grant myrole to juan;`
+`GRANT myrole TO juan;`
 
 
 # Creating database
