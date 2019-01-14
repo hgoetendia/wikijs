@@ -12,6 +12,19 @@ Shall the new role be a superuser? (y/n) y
 bash-4.2$
 ```
 
+Alternative from postgresql prompt:
+
+`create user juan with password 'secretpass';`
+
+Alternative from postgresql prompt:
+
+`ALTER ROLE juan WITH PASSWORD 'oyIP8222';`
+
+Grant role to user postgresql prompt:
+
+`grant myrole to juan;`
+
+
 # Creating database
 As postgres user
 
