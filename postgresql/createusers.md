@@ -14,15 +14,15 @@ bash-4.2$
 
 Alternative from postgresql prompt:
 
-`CREATE USER juan WITH PASSWORD 'secretpass';`
+```pgsqlpostgres=# CREATE USER juan WITH PASSWORD 'secretpass';```
 
 Alternative from postgresql prompt:
 
-`ALTER ROLE juan WITH PASSWORD 'oyIP8222';`
+```pgsqlpostgres=# ALTER ROLE juan WITH PASSWORD 'oyIP8222';```
 
 Grant role to user postgresql prompt:
 
-`GRANT myrole TO juan;`
+```pgsqlpostgres=# GRANT myrole TO juan;```
 
 
 # Creating database
