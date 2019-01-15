@@ -3,4 +3,5 @@
 
 * [Install](/postgresql/install)
 * [Creating users/databases](/postgresql/createusers)
-
+* [Tablespace](/postgresql/tablespace)
+* [Schemas](/postgresql/schemas)
