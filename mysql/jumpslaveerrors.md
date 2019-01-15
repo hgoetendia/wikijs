@@ -106,3 +106,8 @@ mysql>
 ```
 
 Optional check the `/var/log/syslog` file.
+
+All in a single line:
+```text
+STOP SLAVE; SET GLOBAL SQL_SLAVE_SKIP_COUNTER = 1; START SLAVE; SHOW SLAVE STATUS \G
+```
