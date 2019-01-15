@@ -34,7 +34,7 @@ If you want to modify the time relative to UTC, remove the Z and add +HH:MM or -
 Examples
 
 ```javascript
-var d = new Date("2015-03-25");
+var d = new Date("2019-01-01");// Result: Mon Dec 31 2018 19:00:00 GMT-0500 (Peru Standard Time)
 var e = new Date("2018-12-29T17:07:31.069Z");
 var f = new Date("2015-03-25T12:00:00-06:30"); 
 ```
