@@ -5,3 +5,8 @@
 * [Jump slave errors](mysql/jumpslaveerrors)
 
 * [Dumps](/mysql/dumps)
+
+
+# Tricks
+
+* [Load data](mysql/loaddata)
