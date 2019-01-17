@@ -8,7 +8,7 @@
 # Tricks
 
 * [Delete specific line number(s) from a text file](/linux/deletelinesfromfile)
-* [Replace charcters to other](/linux/replacepipestocomas)
+* [Replace characters to others](/linux/replacecharacterstoothers)
 
 # Tunning
 * [SYN without SYN/ACK response](/tcpip/synwithoutsynack)
