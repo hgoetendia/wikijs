@@ -1,6 +1,6 @@
 <!-- TITLE: Load data -->
 
-# Load CVS file into table
+# Load CVS file into table: LOAD DATA INFILE
 
 ## If csv file columns match with table fields
 
