@@ -2,9 +2,11 @@
 
 * [Days of current month](/mysql/daysofmonth)
 
+* [Dumps](/mysql/dumps)
+
 * [Jump slave errors](mysql/jumpslaveerrors)
 
-* [Dumps](/mysql/dumps)
+* [Disable replication for the current session](mysql/disablereplicationforsession)
 
 
 # Tricks
