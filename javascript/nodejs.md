@@ -1,7 +1,7 @@
 <!-- TITLE: Nodejs -->
 
 # Install 
-
+This will install node and npm.
 ## From sources
 
 
