@@ -1,7 +1,5 @@
 <!-- TITLE: Reactjs -->
 
-# Install
-refer to /javascript/nodejs
+Refer to  [Install NodeJs](/javascript/nodejs) 
 
-
-[Iterating & rendering with loops in react components](iterating-rendering-with-loops-in-react-components)
+* [Iterating & rendering with loops in react components](iterating-rendering-with-loops-in-react-components)
