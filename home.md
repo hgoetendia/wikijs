@@ -21,7 +21,8 @@
 # Linux
 * [Linux](/linux)
 
-
+# Windows
+* [Windows](/windows)
 
 # Web servers
 * [Nginx](/nginx)
