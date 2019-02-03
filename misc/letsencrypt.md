@@ -38,3 +38,5 @@ After running the above commands, your certificates and keys will be in the foll
 
 * For RSA: /etc/letsencrypt/wiki.example.com
 * For ECC/ECDSA: /etc/letsencrypt/wiki.example.com_ecc
+
+Configure nginx with letsencrypt  [here](nginx/letsencrypt)  
