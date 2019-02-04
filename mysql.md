@@ -8,9 +8,7 @@
 
 * [Disable replication for the current session](mysql/disablereplicationforsession)
 
-* [Rename table]
-
-
+* Rename table
 ```mysql
 MySQL [database]> RENAME TABLE tb1 TO tb2;
 
