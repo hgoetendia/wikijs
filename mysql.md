@@ -8,6 +8,8 @@
 
 * [Disable replication for the current session](mysql/disablereplicationforsession)
 
+* [Triggers](mysql/triggers)
+
 * Rename table
 ```mysql
 MySQL [database]> RENAME TABLE tb1 TO tb2;
