@@ -15,6 +15,8 @@
 
 # NTP
 
+Port 123/UDP.
+
 ## Printing or querying date (not set the time)
 
 ### ntpdate
