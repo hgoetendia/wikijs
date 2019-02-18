@@ -1,5 +1,5 @@
 <!-- TITLE: Perl -->
 
-# UDP server
+# UDP server/client
 
-* [UDP server](/perl/udpserver)
+* [UDP server/client](/perl/udpserverclient)
