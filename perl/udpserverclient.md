@@ -35,3 +35,17 @@ $socket->close();
 
 ```
 
+# UDP client
+* Server IP:PORT 192.168.1.1:3671
+
+```perl
+#!/usr/bin/perl -w
+use strict;
+use IO::Socket::INET;
+my $sock = new IO::Socket::INET(PeerAddr => '192.168.1.1',
+                PeerPort => 3671,
+                Proto => 'udp', Timeout => 1) or die('Error opening socket.');
+my $data = "hello";
+print $sock $data;
+```
+
