@@ -3,6 +3,8 @@
 # Development
 ## Perl
 
+* [Perl](/perl)
+
 ## CSS
 * [Flexbox](/css/flexbox)
 
