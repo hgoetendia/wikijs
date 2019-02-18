@@ -1,7 +1,7 @@
 <!-- TITLE: Ntp -->
 <!-- SUBTITLE: A quick summary of Ntp -->
 
-# NTP
+# NTP Client
 
 Port 123/UDP.
 
