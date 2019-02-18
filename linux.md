@@ -33,7 +33,7 @@ rdate -p pool.ntp.org
 -p     Print the time returned by the remote machine.
 
 
-## Setting de time
+## Setting time
 
 ### rdate
 ```sh
