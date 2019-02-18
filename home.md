@@ -1,38 +1,29 @@
 <!-- TITLE: Snippets -->
 
 # Development
-## Perl
 
 * [Perl](/perl)
 
-## CSS
 * [Flexbox](/css/flexbox)
 
-## C/C++
-
-## Python
 * [Python](/python)
 
-## Javascript
 * [Javascript](/javascript)
 
 
 # IDEs
 * [Emacs](/emacs)
 
-# Linux
+# OS
+
 * [Linux](/linux)
 
-# Windows
 * [Windows](/windows)
 
 # Web servers
 * [Nginx](/nginx)
 
 * [Apache](/apache)
-
-
-
 
 # Databases
 
@@ -43,8 +34,6 @@
 # TCP/IP
 
 * [TCP session establishment and termination](/tcpip/sessioneandtermination)
-
-
 
 # Misc
 * [db-ip.com](/misc/dbip)
