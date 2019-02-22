@@ -43,7 +43,7 @@
 
 # Usefull tools
 
-* [Python tutor](http://pythontutor.com)
+* [Python tutor (Simulators)](http://pythontutor.com)
 * [C Simulator](http://pythontutor.com/c.html#mode=edit)
 * [C++ Simulator](http://pythontutor.com/cpp.html#mode=edit)
 * [Java Simulator](http://pythontutor.com/java.html#mode=edit)
