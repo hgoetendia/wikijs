@@ -1,4 +1,4 @@
-<!-- TITLE: XML pretty print -->
+<!-- TITLE: Emacs XML pretty print -->
 
 
 Change to sgml-mode
