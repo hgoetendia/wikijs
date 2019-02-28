@@ -10,5 +10,5 @@
 * [MySQL](/emacs/mysql)
 ---
 * [Erasing](/emacs/erasing)
-* [XML preety print](/emacs/xmlpreetyprint)
+* [XML preety print](/emacs/xmlprettyprint)
 
