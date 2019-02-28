@@ -1,7 +1,7 @@
 <!-- TITLE: XML pretty print -->
 
 
-change to sgml-mode
+Change to sgml-mode
 
 
 ```lisp
