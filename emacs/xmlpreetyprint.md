@@ -1,4 +1,4 @@
-<!-- TITLE: XML preety print -->
+<!-- TITLE: XML pretty print -->
 
 
 change to sgml-mode
