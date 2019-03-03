@@ -14,7 +14,9 @@ Dependencies:
 sudo apt-get install libmysqlclient-dev
 ./configure
 ```
-`Last lines of summary
+
+```text
+Last lines of summary
 +------------------------------------------------------------+
 | License:                                                   |
 | This is Open Source Software and use is subject to the GNU |
@@ -41,4 +43,6 @@ sudo apt-get install libmysqlclient-dev
 |   PostgreSQL:                                   DISABLED   |
 |   Oracle:                                       DISABLED   |
 +------------------------------------------------------------+
-`
+
+```
+
