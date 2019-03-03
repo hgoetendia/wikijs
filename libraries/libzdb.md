@@ -65,3 +65,13 @@ make
 sudo make install
 ```
 
+Fixing some personal issues
+
+Edit 
+
+```sh
+sudo vim /usr/local/include/zdb/SQLException.h
+```
+
+Change:  `#include <Exception.h>` to `#include "Exception.h"`
+
