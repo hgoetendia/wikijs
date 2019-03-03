@@ -35,6 +35,14 @@
 
 * [TCP session establishment and termination](/tcpip/sessioneandtermination)
 
+
+# Libraries
+
+## Databases
+
+* [Libzdb](/libraries/libzdb)
+
+
 # Misc
 * [db-ip.com](/misc/dbip)
 * [ssh](/misc/ssh)
