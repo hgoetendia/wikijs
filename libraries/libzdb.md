@@ -14,9 +14,20 @@ Dependencies:
 sudo apt-get install libmysqlclient-dev
 ./configure
 ```
-
-```text
 Last lines of summary
+```text
+..
+checking for an ANSI C-conforming const... yes
+checking whether byte ordering is bigendian... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating test/Makefile
+config.status: creating zdb.pc
+config.status: creating src/xconfig.h
+config.status: executing libtool_patch commands
+config.status: executing depfiles commands
+config.status: executing libtool commands
 +------------------------------------------------------------+
 | License:                                                   |
 | This is Open Source Software and use is subject to the GNU |
