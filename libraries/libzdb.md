@@ -57,3 +57,11 @@ config.status: executing libtool commands
 
 ```
 
+Compiling/installing
+
+
+```sh
+make
+sudo make install
+```
+
