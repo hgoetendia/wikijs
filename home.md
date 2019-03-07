@@ -11,7 +11,7 @@
 
 * [Javascript](/javascript)
 
-
+* [Java](/java)
 # IDEs
 * [Emacs](/emacs)
 
