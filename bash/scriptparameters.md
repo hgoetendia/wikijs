@@ -3,13 +3,11 @@
 
 # Number of parameters entered
 man bash
-
-
 ```text
 Special Parameters
    #      Expands to the number of positional parameters in decimal.
 ```
-
+Code
 
 ```sh
 if [ "$#" -eq 0 ]; then
