@@ -11,6 +11,6 @@ Code
 
 ```sh
 if [ "$#" -eq 0 ]; then
-  echo "you did not pass any parameter"
+  echo "You did not pass any parameter budy"
 fi
 ```
