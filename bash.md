@@ -1,5 +1,9 @@
 <!-- TITLE: Bash -->
 
-``$` refer to `value of``
+
+```text
+`$` refer to `value of`
+```
+
 
 * [Script parameters](/bash/scriptparameters)
