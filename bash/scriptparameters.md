@@ -1,5 +1,4 @@
-<!-- TITLE: Script parameters -->
-<!-- SUBTITLE: A quick summary of Scriptparameters -->
+<!-- TITLE: Bash Script parameters -->
 
 # Number of parameters entered
 man bash
