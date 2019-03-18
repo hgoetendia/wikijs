@@ -15,9 +15,16 @@ sudo yum install python36-pip.noarch
 
 ```
 
-# Upgrade PIP
+# Upgrade pip
 
 
 ```sh
-sudo pip install --upgrade pip
+pip install --upgrade pip
+```
+
+# Search with pip
+
+
+```sh
+pip search python-dateutil
 ```
