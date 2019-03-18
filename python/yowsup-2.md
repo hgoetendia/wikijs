@@ -39,11 +39,11 @@ And apply these changes in the  /usr/lib/python3.4/site-packages/yowsup2-2.5.7-p
 20c20
 <     _MD5_CLASSES = "uts7K11+PDyZE5R0ou+2Sw=="
 ---
->     _MD5_CLASSES = "YqW9KfOVL6cRD8aiNh8l6w=="
+>     _MD5_CLASSES = "DAPy33TbNMg0Yuplp2II0A=="
 23c23
 <     _VERSION = "2.17.337"
 ---
->     _VERSION = "2.18.45"
+>     _VERSION = "2.18.339"
 ```
 
 
