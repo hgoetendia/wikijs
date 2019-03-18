@@ -142,6 +142,7 @@ sudo pip3.4  install xvfbwrapper
 sudo yum install -y python-xvfbwrapper.noarch
 sudo yum install -y perl-Image-ExifTool.noarch
 sudo yum install -y python-wand.noarch
+sudo pip3 install pycrypto
 cd yowsup
 sudo python3.4 setup.py install
 ```
