@@ -23,7 +23,7 @@ pip install --upgrade pip
 ```
 
 # Search with pip
-
+Example, search python-dateutil package.
 
 ```sh
 pip search python-dateutil
