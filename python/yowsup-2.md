@@ -70,7 +70,7 @@ http://openwhatsapp.org/yowsup/donate
 INFO:yowsup.common.http.warequest:b'{"login":"51999999999","status":"sent","length":6,"method":"sms","retry_after":65,"sms_wait":65,"voice_wait":65}\n'
 method: b'sms'
 status: b'sent'
-login: b'51991731878'
+login: b'51999999999'
 length: 6
 retry_after: 65
 ```
