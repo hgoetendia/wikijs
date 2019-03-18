@@ -140,6 +140,7 @@ Use this fork:
 git clone https://github.com/AragurDEV/yowsup.git
 sudo pip3.4  install xvfbwrapper
 sudo yum install -y python-xvfbwrapper.noarch
+sudo yum install -y perl-Image-ExifTool.noarch
 cd yowsup
 sudo python3.4 setup.py install
 ```
