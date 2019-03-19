@@ -6,3 +6,4 @@
 * [Tablespace](/postgresql/tablespace)
 * [Schemas](/postgresql/schemas)
 * [Index](/postgresql/index)
+* [dumps](/postgresql/dumps)
