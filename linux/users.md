@@ -17,3 +17,11 @@ sudo usermod -aG wheel juan
 
 
 All commands were tested in Centos.
+
+# Show user groups belongs to
+
+
+```sh
+$ groups
+```
+
