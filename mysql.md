@@ -10,6 +10,8 @@
 
 * [Triggers](mysql/triggers)
 
+* [Functions and procedures](mysql/funcsprocs)
+
 * Rename table
 ```mysql
 MySQL [database]> RENAME TABLE tb1 TO tb2;
