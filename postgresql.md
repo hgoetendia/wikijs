@@ -7,3 +7,5 @@
 * [Schemas](/postgresql/schemas)
 * [Index](/postgresql/index)
 * [dumps](/postgresql/dumps)
+* [Edit functions](/postgresql/editfunction)
+
