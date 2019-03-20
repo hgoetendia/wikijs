@@ -19,6 +19,7 @@ $ pg_dump -Fc -s | pg_restore -l | grep fn_myfunc
 
 
 ```pgsql
+$ pg_dump -Fc -s | pg_restore -P 'fn_myfunc(character varying, character varying)'
 --
 -- PostgreSQL database dump
 --
