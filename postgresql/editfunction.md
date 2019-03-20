@@ -17,6 +17,7 @@ $ pg_dump -Fc -s | pg_restore -l | grep fn_myfunc
 5528; 1255 17096 FUNCTION accounting fn_myfunc(character varying, character varying) postgres
 ```
 
+Then
 
 ```pgsql
 $ pg_dump -Fc -s | pg_restore -P 'fn_myfunc(character varying, character varying)'
