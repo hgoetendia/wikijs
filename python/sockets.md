@@ -2,6 +2,8 @@
 <!-- SUBTITLE: A quick summary of Sockets -->
 
 # TCP Client
+
+```python
 #!/usr/bin/env python
 
 import socket
@@ -19,3 +21,4 @@ data = s.recv(BUFFER_SIZE)
 s.close()
 
 print "received data:", data
+```
