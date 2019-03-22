@@ -20,6 +20,7 @@ MySQL [database]> RENAME TABLE tb1 TO tb2;
 MySQL [database]> RENAME TABLE tb1 TO tb2, tb3 TO tb4;
 ```
 
+* [Alter table](mysql/altertable)
 
 # Tricks
 
