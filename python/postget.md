@@ -1,4 +1,4 @@
-<!-- TITLE: Postget -->
+<!-- TITLE: Pos get -->
 <!-- SUBTITLE: A quick summary of Postget -->
 
 # POS JSON
