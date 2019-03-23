@@ -83,6 +83,9 @@ Request Methods
 
 
 ```python
+
+from flask import Flask, url_for, request
+
 @app.route('/echo', methods = ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'])
 def api_echo():
     if request.method == 'GET':
