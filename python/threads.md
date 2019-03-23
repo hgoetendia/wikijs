@@ -71,5 +71,5 @@ def loop1_10():
 
 t = threading.Thread(target=loop1_10)
 t.start()
-t.join(timeout=1)#wait 1 second
+t.join(timeout=5.0)#wait 5 seconds
 ```
