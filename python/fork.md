@@ -7,10 +7,12 @@
 import os
 
 newpid = os.fork()
+
 if newpid == 0:
-   pass #Child
+   #Child
+   pass 
 else:
-   #parent
+   #Father
    pids = (os.getpid(), newpid)
    print("parent: %d, child: %d\n" % pids)
 ```
