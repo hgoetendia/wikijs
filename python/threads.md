@@ -73,3 +73,19 @@ t = threading.Thread(target=loop1_10)
 t.start()
 t.join(timeout=5.0)#wait 5 seconds
 ```
+
+# Arguments to thread
+
+```python
+#!/usr/bin/python
+
+import threading, time
+
+def countTo(x,delay):
+    print(x)
+		print(delay)
+
+t = threading.Thread(target=countTo,args=(4,0.25))
+
+t.start()
+```
