@@ -100,3 +100,20 @@ def api_echo():
     elif request.method == 'DELETE':
         return "ECHO: DELETE"
 ```
+
+To test
+
+`curl -X PATCH http://127.0.0.1:5000/echo`
+
+The replies to the different request methods will be:
+
+
+```text
+GET /echo
+ECHO: GET
+
+POST /ECHO
+ECHO: POST
+```
+
+http://blog.luisrei.com/articles/flaskrest.html
