@@ -13,7 +13,8 @@ def loop1_10():
         time.sleep(1)
         print(i)
 
-threading.Thread(target=loop1_10).start()
+t = threading.Thread(target=loop1_10)
+t.start()
 ```
 
 # Simple with object
