@@ -47,8 +47,8 @@ Routes can use different converters in their definition,
 
 Can be replaced by
 
-`@app.route('/articles/<int:articleid>')
-@app.route('/articles/<float:articleid>')
-@app.route('/articles/<path:articleid>')`
+`@app.route('/articles/<int:articleid>')`
+`@app.route('/articles/<float:articleid>')`
+`@app.route('/articles/<path:articleid>')`
 
 The default is string which accepts any text without slashes.
