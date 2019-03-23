@@ -12,3 +12,4 @@
 * [Flask](/python/flask)
 * [Threads](/python/threads)
 * [JSON](/python/json)
+* [MySQL](/python/mysql)
