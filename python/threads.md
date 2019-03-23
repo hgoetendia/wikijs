@@ -57,3 +57,19 @@ t.start()
 t.join()
 ```
 
+## No blocking way
+
+```python
+
+import threading
+import time
+
+def loop1_10():
+    for i in range(1, 11):
+        time.sleep(1)
+        print(i)
+
+t = threading.Thread(target=loop1_10)
+t.start()
+t.join(1) #Wait 1 second
+```
