@@ -38,3 +38,22 @@ def main():
         time.sleep(.9)                                     # ...Wait 0.9 seconds before starting another
 if __name__ == '__main__':main()
 ```
+
+# Wait to stop
+
+## Blocking way
+```python
+
+import threading
+import time
+
+def loop1_10():
+    for i in range(1, 11):
+        time.sleep(1)
+        print(i)
+
+t = threading.Thread(target=loop1_10)
+t.start()
+t.join()
+```
+
