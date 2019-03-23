@@ -23,6 +23,7 @@ def api_article(articleid):
 
 if __name__ == '__main__':
     app.run()
+		#app.run(port=5000) #to run server in port 5000 
 ```
 To test
 
