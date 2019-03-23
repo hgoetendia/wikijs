@@ -7,3 +7,4 @@
 * [Sockets](/python/sockets)
 * [Post/Get](/python/postget)
 * [Date time](/python/datetime)
+* [Sleep](/python/sleep)
