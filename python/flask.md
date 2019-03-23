@@ -3,6 +3,8 @@
 
 # Simple
 
+Flask default port is 5000
+
 ```python
 from flask import Flask, url_for
 app = Flask(__name__)
@@ -21,4 +23,20 @@ def api_article(articleid):
 
 if __name__ == '__main__':
     app.run()
+```
+To test
+
+curl http://127.0.0.1:5000/
+
+The responses will be:
+
+```text
+GET /
+Welcome
+
+GET /articles
+List of /articles
+
+GET /articles/123
+You are reading 123
 ```
