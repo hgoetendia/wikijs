@@ -52,3 +52,27 @@ Can be replaced by
 `@app.route('/articles/<path:articleid>')`
 
 The default is string which accepts any text without slashes.
+
+# Get and parameters
+
+```python
+
+from flask import request
+
+@app.route('/hello')
+def api_hello():
+    if 'name' in request.args:
+        return 'Hello ' + request.args['name']
+    else:
+        return 'Hello John Doe'
+```
+Testing
+
+
+```text
+GET /hello
+Hello John Doe
+
+GET /hello?name=Luis
+Hello Luis
+```
