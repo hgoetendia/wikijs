@@ -51,6 +51,7 @@
 * [ssh](/misc/ssh)
 * [Tcpdump](/misc/tcpdump)
 * [https: Let’s Encrypt](/misc/letsencrypt)
+* [curl](/misc/curl)
 
 # Usefull tools
 
