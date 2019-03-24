@@ -1,5 +1,18 @@
 <!-- TITLE: Json -->
 
+
+JSON syntax is not Python syntax. JSON requires double quotes for its strings.
+
+Python dicts:
+
+`{'Protl': {'dateTimeSent': '2019-03-24 14:17:33.743606', 'tenlId': 1, 'hostId': 1, 'boxId': 1, 'commun': {'commId': 1, 'sessid': 1, 'deviceId': 0, 'timeToLive': 30000}}}
+`
+
+JSON representation:
+
+`{"Protl": {"dateTimeSent": "2019-03-24 14:17:33.743606", "tenlId": 1, "hostId": 1, "boxId": 1, "commun": {"commId": 1, "sessid": 1, "deviceId": 0, "timeToLive": 30000}}}
+`
+
 # Read JSON configfile
 
 Create a test json file 
