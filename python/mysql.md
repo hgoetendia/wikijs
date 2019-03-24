@@ -107,3 +107,6 @@ print row["key"]
 ```
 
 
+## Pool of connections
+
+pip install pymysql-pool
