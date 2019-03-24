@@ -13,6 +13,19 @@ JSON representation:
 `{"Protl": {"dateTimeSent": "2019-03-24 14:17:33.743606", "tenlId": 1, "hostId": 1, "boxId": 1, "commun": {"commId": 1, "sessid": 1, "deviceId": 0, "timeToLive": 30000}}}
 `
 
+To change use this:
+
+
+```python
+import json
+
+# mixing single and double quotes
+data = {'jsonKey': 'jsonValue',"title": "hello world"}
+
+# get string with all double quotes
+json_string = json.dumps(data) 
+```
+
 # Read JSON configfile
 
 Create a test json file 
