@@ -86,15 +86,19 @@ finally:
 ## All
 
 ```python
-row = self.link.fetchall()
+row = cursor.fetchall()
 print row[0]["key"]
 ```
 
+in loop
+
+for row in cursor.fetchall():
+            print("Name: %s" % row['can_name'])
 
 ## One
 
 ```python
-row = self.link.fetchone()
+row = cursor.fetchone()
 print row["key"]
 ```
 
