@@ -92,8 +92,12 @@ print row[0]["key"]
 
 in loop
 
+
+```python
 for row in cursor.fetchall():
             print("Name: %s" % row['can_name'])
+```
+
 
 ## One
 
