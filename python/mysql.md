@@ -82,4 +82,20 @@ finally:
     connection.close()
 ```
 
+## Fetch rows
+## All
+
+```python
+row = self.link.fetchall()
+print row[0]["key"]
+```
+
+
+## One
+
+```python
+row = self.link.fetchone()
+print row["key"]
+```
+
 
