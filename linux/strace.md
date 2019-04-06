@@ -7,14 +7,13 @@
 
 
 ```text
-strace -p 1234 -s9024
+sudo strace -p 1234 -s9024
 ```
 
 
 # Java application
 
 ```text
-strace -F -p 1234
-
+sudo strace -F -p 1234
 ```
 
