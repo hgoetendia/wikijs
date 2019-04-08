@@ -1,6 +1,8 @@
 <!-- TITLE: Top -->
 
  
+
+```text
 top -o keys
 
 keys: pid (default), command, cpu, cpu_me, cpu_others, csw,
@@ -8,10 +10,15 @@ keys: pid (default), command, cpu, cpu_me, cpu_others, csw,
 				kprvt, kshrd, pgrp, ppid, state, uid, wq, faults, cow, user,
 				msgsent, msgrecv, sysbsd, sysmach, pageins, boosts, instrs, cycles
 				
-* top cpu
+```
 
+# top cpu
+```sh
 top -o cpu
+```
 
-* top mem
 
+# top mem
+```sh
 top -o mem
+```
