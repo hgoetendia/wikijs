@@ -4,7 +4,7 @@
 Error:
 
 ```text
-"ServiceException: 401 Anonymous caller does not have storage.objects.create access to"
+"ServiceException: 401 Anonymous caller does not have storage.objects.create access to ....."
 ```
 Solution:
 
