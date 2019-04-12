@@ -55,7 +55,7 @@
 * [Tcpdump](/misc/tcpdump)
 * [https: Let’s Encrypt](/misc/letsencrypt)
 * [curl](/misc/curl)
-
+* [Google Cloud](/misc/gcloud)
 
 # Usefull tools
 
