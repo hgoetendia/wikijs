@@ -12,13 +12,8 @@
 
 * [Functions and procedures](mysql/funcsprocs)
 
-* Rename table
-```mysql
-MySQL [database]> RENAME TABLE tb1 TO tb2;
-```
-```mysql
-MySQL [database]> RENAME TABLE tb1 TO tb2, tb3 TO tb4;
-```
+* [Rename table](mysql/rename)
+
 
 * [Alter table](mysql/altertable)
 
