@@ -17,6 +17,8 @@
 
 * [Alter table](mysql/altertable)
 
+* [Refresh changes](mysql/refreshchanges)
+
 # Tricks
 
 * [Load data](mysql/loaddata)
