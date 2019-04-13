@@ -21,9 +21,4 @@
 
 * [Load data](mysql/loaddata)
 
-* Start database withouth innoDB verification/recovery
-Add in `/etc/my.cnf.d/server.cnf` the line
-
-```text
-innodb_force_recovery = 1
-```
+* [Start database withouth innoDB verification/recovery](mysql/databaseverificationrecovery)
