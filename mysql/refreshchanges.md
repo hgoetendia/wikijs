@@ -1,4 +1,4 @@
-<!-- TITLE: Refreshchanges -->
+<!-- TITLE: MySQL refresh changes -->
 <!-- SUBTITLE: A quick summary of Refreshchanges -->
 
 
