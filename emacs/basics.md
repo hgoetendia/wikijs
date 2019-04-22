@@ -271,6 +271,12 @@ F12 to toggle neotree window
 ```
 
 
+## Window margin
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;Left/Right window margin;;;;;;;;;;;
+ (setq-default left-margin-width 1 right-margin-width 1) ; Define new widths.
+ (set-window-buffer nil (current-buffer)) ;; Use them now.
+```
 
 
 
@@ -371,6 +377,9 @@ F12 to toggle neotree window
 (set-face-foreground 'font-lock-comment-face "Red" )
 (set-variable font-lock-comment-face 'font-lock-comment-face)
 
+;;;;;;;;;;;;;;;;;;;;;;;;Left/Right window margin;;;;;;;;;;;
+ (setq-default left-margin-width 1 right-margin-width 1) ; Define new widths.
+ (set-window-buffer nil (current-buffer)) ;; Use them now.
 
 ```
 
