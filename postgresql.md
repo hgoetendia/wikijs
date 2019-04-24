@@ -8,4 +8,4 @@
 * [Index](/postgresql/index)
 * [dumps](/postgresql/dumps)
 * [Edit/List functions](/postgresql/editfunction)
-
+* [Create types](/postgres/createtypes)
