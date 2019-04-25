@@ -10,7 +10,7 @@
 
 * [Triggers](mysql/triggers)
 
-* [Functions and procedures](mysql/funcsprocs)
+* [Functions and procedures](mysql/funcprocs)
 
 * [Rename table](mysql/rename)
 
