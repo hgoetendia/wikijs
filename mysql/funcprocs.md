@@ -25,3 +25,11 @@ Empty set (0.00 sec)
 
 MariaDB [accounts]> 
 ```
+
+As mysql root user
+
+
+```text
+MariaDB [accounts]> SHOW CREATE FUNCTION myfunc;
+
+```
