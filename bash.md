@@ -5,9 +5,8 @@
 ``$` refer to `value of``
 
 
-
 * [Script parameters](/bash/scriptparameters)
-* [Kill massive]  
+* Kill massive  
 ```sh
 kill `pidof smppserver`
 ```
