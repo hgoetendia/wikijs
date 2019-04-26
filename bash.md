@@ -8,5 +8,5 @@
 * [Script parameters](/bash/scriptparameters)
 * Kill massive  
 ```sh
-kill `pidof smppserver`
+$ kill `pidof smppserver`
 ```
