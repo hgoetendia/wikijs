@@ -3,3 +3,4 @@
 # UDP server/client
 
 * [UDP server/client](/perl/udpserverclient)
+* [CPAN](/perl/cpan)
