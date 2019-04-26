@@ -7,4 +7,7 @@
 
 
 * [Script parameters](/bash/scriptparameters)
-* [Kill massive]  "kill `pidof smppserver`"
+* [Kill massive]  
+```sh
+kill `pidof smppserver`
+```
