@@ -1,9 +1,10 @@
 <!-- TITLE: Bash -->
 
 
-```text
-`$` refer to `value of`
-```
+
+``$` refer to `value of``
+
 
 
 * [Script parameters](/bash/scriptparameters)
+* [Kill massive] `kill `pidof smppserver``
