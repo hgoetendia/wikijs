@@ -3,3 +3,4 @@
 
 * [typedef](/c/typedef)
 
+* [strncmp](/c/strncmp)
