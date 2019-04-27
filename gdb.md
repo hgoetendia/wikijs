@@ -8,13 +8,25 @@
 
 In line 91:
 
+
+```text
 (gdb) b 91
+
+```
 
 or
 
+
+```text
 (gdb) break 91
+
+```
 
 ## Breakpoint in certain file
 
+
+```text
 (gdb) b business.c:91
+
+```
 
