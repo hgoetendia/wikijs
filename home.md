@@ -14,6 +14,8 @@
 * [Java](/java)
 
 * [Bash](/bash)
+
+* [gdb](/gdb)
 # IDEs
 * [Emacs](/emacs)
 
