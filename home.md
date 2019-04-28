@@ -59,6 +59,7 @@
 * [curl](/misc/curl)
 * [Google Cloud](/misc/gcloud)
 
+* [Valgrind / Memory leaking](/misc/valgrind)
 # Usefull tools
 
 * [Python tutor (Simulators)](http://pythontutor.com)
