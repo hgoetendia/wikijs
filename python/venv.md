@@ -4,6 +4,14 @@ Sometimes it is not possible for one Python installation to meet the requirement
 
 The solution for this problem is to create a virtual environment, a self-contained directory tree that contains a Python installation for a particular version of Python, plus a number of additional packages.
 
+# Install
+
+
+```sh
+sudo pip install virtualenv
+```
+
+
 # Create a virtual enviroment
 
 ```sh
