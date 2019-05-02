@@ -9,3 +9,4 @@
 * [dumps](/postgresql/dumps)
 * [Edit/List functions](/postgresql/editfunction)
 * [Create types](/postgres/createtypes)
+* [Executing queryes](/postgres/executeqry)
