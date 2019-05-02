@@ -1,4 +1,4 @@
-<!-- TITLE: Executeqry -->
+<!-- TITLE: Execute queries -->
 <!-- SUBTITLE: A quick summary of Executeqry -->
 
 # Execute queries from file
