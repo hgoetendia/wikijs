@@ -8,5 +8,5 @@
 * [Index](/postgresql/index)
 * [dumps](/postgresql/dumps)
 * [Edit/List functions](/postgresql/editfunction)
-* [Create types](/postgres/createtypes)
-* [Executing queryes](/postgres/executeqry)
+* [Create types](/postgresql/createtypes)
+* [Executing queryes](postgresql/executeqry)
