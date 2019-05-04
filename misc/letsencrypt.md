@@ -3,7 +3,7 @@
 # Fast way
 
 ```sh
-sudo certbot --nginx certonly  -d www.loginsmsbulk.com
+sudo certbot --nginx certonly  -d www.myweb.com
 ```
 
 # Automated version
