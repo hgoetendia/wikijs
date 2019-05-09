@@ -15,3 +15,11 @@ MODIFY COLUMN
         'new_value2'
     )
 ```
+
+# Add an Index to table
+
+
+```text
+ALTER TABLE mytable ADD INDEX name_idx (mycolumname);
+```
+
