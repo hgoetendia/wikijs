@@ -11,5 +11,5 @@
 ---
 * [Erasing](/emacs/erasing)
 * [XML preety print](/emacs/xmlprettyprint)
---
+---
 * [GIT/MaGIT](/emacs/magit)
