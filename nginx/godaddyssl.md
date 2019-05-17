@@ -93,7 +93,7 @@ Check the configuration
 
 
 ```sh
-# nginx -t
+nginx -t
 ```
 
 
