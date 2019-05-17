@@ -37,7 +37,7 @@ server {
 server {
   listen 443 ssl default deferred;
 
-  server_name loginsmsbulk.com;
+  server_name example.com;
 
   error_page 404 /;
 
