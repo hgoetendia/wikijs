@@ -1,17 +1,13 @@
-<!-- TITLE: Godaddyssl -->
-<!-- SUBTITLE: A quick summary of Godaddyssl -->
+<!-- TITLE: Godaddy SSL Certs with NGINX -->
 
-Find de key file that godday gaves you
+Find de key file that godday gaves you `example.com.key` then donwload the zip cert file in godaddy web.
 
-Donwload the zip cert file in godaddy web
-
-
+Join the files
 ```sh
 cat 93rfs8dhf834hts.crt gd_bundle-g2-g1.crt > example.com.crt
 ```
 
-Key and crt files had been saved in `/etc/godadycerts/example.com/` directory
-
+Key and crt files had been saved in `/etc/godadycerts/example.com/` directory.
 
 
 Modify de configuration file in nginx  `/etc/nginx/conf.d/example.com.conf`
@@ -92,6 +88,14 @@ server {
 }
 
 ```
+
+Check the configuration
+
+
+```sh
+# nginx -t
+```
+
 
 
 
