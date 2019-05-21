@@ -16,7 +16,6 @@ consonance==0.1.2
 python-axolotl==0.2.2
 protobuf>=3.6.0
 six==1.10
-
 ```
 
 Installing
@@ -37,7 +36,6 @@ $ pip install yowsup
 
 ```sh
 yowsup-cli registration --requestcode sms --phone 51XXXXXXXXX --cc 51 --mcc 716 --mnc 07 --env android
-
 ```
 
 ## Registering
@@ -45,7 +43,6 @@ yowsup-cli registration --requestcode sms --phone 51XXXXXXXXX --cc 51 --mcc 716 
 
 ```sh
 yowsup-cli registration --register 391608 --phone 51XXXXXXXXX --cc 51 --env android
-
 ```
 
 Output sample:
@@ -70,7 +67,6 @@ status: b'ok'
 login: b'51XXXX'
 type: b'new'
 edge_routing_info: b'CXX=='
-
 ```
 
 if you want save the json output in a file
