@@ -43,3 +43,42 @@ setuptools      28.8.0
 six             1.12.0 
 
 ```
+
+# Install requirements from file "requirements.txt"
+
+Requirements file format:
+
+
+```text
+# To install specific version
+package==version
+
+# To install versión equal or grater
+package>=version
+
+# To install most recent versión
+package
+```
+
+Examples:
+
+`Pygame==1.7.1
+Pygame>=1.7.1`
+
+
+```sh
+$cat requirements.txt 
+
+consonance==0.1.2
+python-axolotl==0.2.2
+protobuf>=3.6.0
+six==1.10
+```
+
+
+
+```sh
+$ pip install -r requirements.txt
+```
+
+
