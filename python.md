@@ -3,7 +3,7 @@
 
 * [PIP](/python/pip)
 * [Yowsup 2](/python/yowsup-2)
-* [Yowsup](/python/yowsup-last-version)
+* [Yowsup last version](/python/yowsup-last-version)
 * [Virtual enviroment](/python/venv)
 * [Sockets](/python/sockets)
 * [Post/Get](/python/postget)
