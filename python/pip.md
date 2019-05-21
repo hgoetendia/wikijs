@@ -1,5 +1,4 @@
 <!-- TITLE: Pip -->
-<!-- SUBTITLE: A quick summary of Pip -->
 
 # Install
 
