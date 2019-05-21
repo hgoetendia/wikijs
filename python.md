@@ -1,5 +1,4 @@
 <!-- TITLE: Python -->
-<!-- SUBTITLE: A quick summary of Python -->
 
 * [PIP](/python/pip)
 * [Yowsup 2](/python/yowsup-2)
