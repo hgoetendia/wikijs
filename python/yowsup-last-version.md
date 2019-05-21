@@ -24,7 +24,10 @@ Installing
 
 ```sh
 $ pip install -r requirements.txt
+$ pip install yowsup
 ```
+
+
 
 
 # Enabling
