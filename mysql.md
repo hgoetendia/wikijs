@@ -19,6 +19,8 @@
 
 * [Refresh changes](mysql/refreshchanges)
 
+* [Create/Grant users](mysql/creategrantuser)
+
 # Tricks
 
 * [Load data](mysql/loaddata)
