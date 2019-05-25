@@ -13,3 +13,4 @@
 * [Threads](/python/threads)
 * [JSON](/python/json)
 * [MySQL](/python/mysql)
+* [Debugger](/python/debugger)
