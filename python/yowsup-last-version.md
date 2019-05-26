@@ -15,7 +15,7 @@ Requirements file
 
 ```sh
 $ cat requirements.txt 
-consonance==0.1.2
+consonance==0.1.3-1
 python-axolotl==0.2.2
 protobuf>=3.6.0
 six==1.10
