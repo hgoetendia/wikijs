@@ -23,12 +23,20 @@ six==1.10
 
 Installing
 
-
 ```sh
 $ pip install -r requirements.txt
+```
+## Using pip
+
+```sh
 $ pip install yowsup
 ```
 
+## Using git
+```sh
+git clone https://github.com/tgalal/yowsup.git
+python setup.py install
+```
 
 
 
