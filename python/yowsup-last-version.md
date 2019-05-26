@@ -6,6 +6,9 @@
 ```sh
 $ python -m venv yowsup-env
 ```
+```sh
+$ source yowsup-env/bin/activate
+```
 
 Requirements file
 
