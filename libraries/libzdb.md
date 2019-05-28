@@ -73,7 +73,10 @@ Edit
 sudo vim /usr/local/include/zdb/SQLException.h
 ```
 
-Change:  `#include <Exception.h>` to `#include "Exception.h"`
+Change:  
+
+`#include <Exception.h>` to `#include "Exception.h"`
+
 or add this flag in compilation
 
 `-I/usr/include/zdb/`
