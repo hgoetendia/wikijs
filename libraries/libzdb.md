@@ -1,6 +1,6 @@
 <!-- TITLE: Libzdb -->
 
-# Install
+# Install from sources
 
 [Libzdb](http://www.tildeslash.com/libzdb/#)
 
@@ -81,3 +81,10 @@ or add this flag in compilation
 
 `-I/usr/include/zdb/`
 
+
+
+# Install from package (Ubuntu)
+Packages
+
+libzbd-dev
+libzdb11
