@@ -1,5 +1,15 @@
 <!-- TITLE: Create and grantuser -->
 
+# Grant all privileges to a user identified by pass
+
+
+```sh
+mysql> grant all on mydb.* to 'myuser'@'%' identified by 'mypass';
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+mysql> flush privileges
+```
+
 # Create and grant read privileges to user
 
 
