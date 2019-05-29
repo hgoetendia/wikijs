@@ -4,9 +4,18 @@
 
 # RS232
 
+## Concept
+![Images](/uploads/electronics/images.png "Images")
 
 
-8 Bits 
+## Examples
+
+8 Data bits 
 No parity 
 1 Bit Stop
+9600 Bauds
+Payload = 0
+
+![Whatsapp Image 2019 05 29 At 5 27 09 Pm 1](/uploads/electronics/whatsapp-image-2019-05-29-at-5-27-09-pm-1.jpeg "Whatsapp Image 2019 05 29 At 5 27 09 Pm 1")
+
 
