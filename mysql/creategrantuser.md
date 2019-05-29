@@ -3,11 +3,11 @@
 # Grant all privileges to a user identified by pass
 
 
-```sh
+```sql
 mysql> grant all on mydb.* to 'myuser'@'%' identified by 'mypass';
 Query OK, 0 rows affected, 1 warning (0.00 sec)
 
-mysql> flush privileges
+mysql> flush privileges;
 ```
 
 # Create and grant read privileges to user
