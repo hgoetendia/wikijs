@@ -1,14 +1,14 @@
-<!-- TITLE: Serialcommunications -->
-<!-- SUBTITLE: A quick summary of Serialcommunications -->
+<!-- TITLE: Serial communications -->
 
+# UART
 
-# RS232
 
 ## Concept
 ![Images](/uploads/electronics/images.png "Images")
 
 
-## Examples
+## RS232
+### Examples
 
 8 Data bits 
 No parity 
