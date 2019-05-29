@@ -2,13 +2,15 @@
 
 * [Install](/mysql/install)
 
+* [Create/Grant users](mysql/creategrantuser)
+
 * [Days of current month](/mysql/daysofmonth)
 
+* [Alter table](mysql/altertable)
+
+* [Refresh changes](mysql/refreshchanges)
+
 * [Dumps](/mysql/dumps)
-
-* [Jump slave errors](mysql/jumpslaveerrors)
-
-* [Disable replication for the current session](mysql/disablereplicationforsession)
 
 * [Triggers](mysql/triggers)
 
@@ -16,12 +18,11 @@
 
 * [Rename table](mysql/rename)
 
+* [Jump slave errors](mysql/jumpslaveerrors)
 
-* [Alter table](mysql/altertable)
+* [Disable replication for the current session](mysql/disablereplicationforsession)
 
-* [Refresh changes](mysql/refreshchanges)
 
-* [Create/Grant users](mysql/creategrantuser)
 
 # Tricks
 
