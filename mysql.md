@@ -1,5 +1,7 @@
 <!-- TITLE: Mysql -->
 
+* [Install](/mysql/install)
+
 * [Days of current month](/mysql/daysofmonth)
 
 * [Dumps](/mysql/dumps)
