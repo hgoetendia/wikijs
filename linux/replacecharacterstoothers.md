@@ -8,3 +8,7 @@
 sed 's/|/,/g' filewithpipes.txt  > filewithcomas.csv
 ```
 
+# Replace tab with coma ( TAB to CSV )
+```sh
+$ cat data.tsv | tr "\\t" "," > data.csv
+```
