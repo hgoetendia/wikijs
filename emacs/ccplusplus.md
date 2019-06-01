@@ -182,6 +182,13 @@ Require auto-complete package
 (global-auto-complete-mode t)
 ```
 
+## Flycheck (check syntax errors inline)
+
+```lisp
+;;;;;;;;;;;;;;Flycheck
+(require 'flycheck)
+(global-flycheck-mode)
+```
 
 
 # All together
