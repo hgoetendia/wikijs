@@ -316,8 +316,14 @@ Require auto-complete package
     (global-set-key "\C-ci" 'ido-goto-symbol) ; or any key you see fit
 
 
-;;;;;;;;;;;;;;;Autocomplete
+;;;;;;;;;;;;;;;Autocomplete;;;;;;;;;;;;;;;
 (require 'auto-complete)
 (global-auto-complete-mode t)
+
+;;;;;;;;;;;;;;;Flycheck;;;;;;;;;;;;;;;
+(require 'flycheck)
+(global-flycheck-mode)
+
+
 ```
 
