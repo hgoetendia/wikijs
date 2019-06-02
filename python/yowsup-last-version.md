@@ -42,19 +42,17 @@ python setup.py install
 
 # Enabling
 
-## Activating
-
-
-```sh
-yowsup-cli registration --requestcode sms --phone 51XXXXXXXXX --cc 51 --mcc 716 --mnc 07 --env android
-```
-
-## Registering
-
+## Activating and registering 
 
 ```sh
-yowsup-cli registration --register 391608 --phone 51XXXXXXXXX --cc 51 --env android
+yowsup-cli registration --requestcode sms --config-phone 51XXXXXXXXX--config-cc 51 --config-mcc 716 --config-mnc 06
+
+yowsup-cli registration --register 469835 --config-phone 51XXXXXXXXX
 ```
+
+
+
+
 
 Output sample:
 
