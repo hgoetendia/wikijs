@@ -54,6 +54,7 @@
 # Misc
 * [db-ip.com](/misc/dbip)
 * [ssh](/misc/ssh)
+* [haproxy](/misc/haproxy)
 * [Tcpdump](/misc/tcpdump)
 * [https: Let’s Encrypt](/misc/letsencrypt)
 * [curl](/misc/curl)
