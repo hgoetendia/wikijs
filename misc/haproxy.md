@@ -93,7 +93,7 @@ listen stats # Define a listen section called "stats"
 
 ```
 
-
+Launching haproxy
 
 ```sh
 ./haproxy -D -f myhaproxy.cfg
