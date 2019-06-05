@@ -6,6 +6,8 @@
 Port to balance localhost:8080  across 8000, 8001, 8002, 8003, 8004
 
 
+Config file named: myhaproxy.cfg
+
 ```text
 #---------------------------------------------------------------------
 # Example configuration for a possible web application.  See the
@@ -89,4 +91,10 @@ listen stats # Define a listen section called "stats"
  stats auth haproxy:haproxy123  # Authentication credentials
 
 
+```
+
+
+
+```sh
+./haproxy -D -f myhaproxy.cfg
 ```
