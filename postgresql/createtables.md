@@ -4,6 +4,6 @@
 # As select
 
 
-```pgsql
+```sql
 CREATE TABLE new_table AS  SELECT * FROM mytable
 ```
