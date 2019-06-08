@@ -20,6 +20,14 @@ For interact with serial devices ( dialout ) group
 sudo usermod -aG dialout juan
 ```
 
+In UBUNTU
+
+
+```sh
+sudo gpasswd -a tiaxa dialout
+```
+
+
 All commands were tested in Centos.
 
 # Show user groups belongs to
