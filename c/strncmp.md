@@ -7,7 +7,7 @@
 ```c_cpp
 void foo(){
 
-    if ("status-report", str_status_report, strlen(str_status_report)) == 0 ){
+    if (strncmp("status-report", str_status_report, strlen(str_status_report)) == 0 ){
 		    printf("Strings are equal");
     }
 
