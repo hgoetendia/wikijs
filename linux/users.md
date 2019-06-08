@@ -15,6 +15,10 @@ In this case we will user the `wheel` group:
 sudo usermod -aG wheel juan
 ```
 
+For interact with serial devices ( dialout ) group
+```sh
+sudo usermod -aG dialout juan
+```
 
 All commands were tested in Centos.
 
