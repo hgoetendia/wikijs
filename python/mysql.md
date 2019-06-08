@@ -34,6 +34,13 @@ Debian and Ubuntu use it to provide both python-mysqldb andpython3-mysqldb packa
 
 
 # Example
+Requerimients:
+
+```sh
+pip  install  mysql-connector-python
+```
+
+Example
 
 
 ```python
