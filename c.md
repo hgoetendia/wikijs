@@ -4,3 +4,5 @@
 * [typedef](/c/typedef)
 
 * [strncmp](/c/strncmp)
+
+* [errno](/c/errno)
