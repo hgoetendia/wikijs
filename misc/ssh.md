@@ -1,5 +1,23 @@
 <!-- TITLE: SSH -->
 
+# SSH Keep alive connection
+
+Add a file `~/.ssh/config` with these lines:
+
+
+```text
+ServerAliveInterval 60
+ServerAliveCountMax 5
+```
+
+
+* ServerAliveInterval
+
+Sets a timeout interval in seconds after which if no data has been received from the server, ssh will send a message through the encrypted channel to request a response from the server. The default is 0, indicating that these messages will not be sent to the server. This option applies to protocol version 2 only.
+
+* ServerAliveCountMax
+
+The default value is 3. If, for example, ServerAliveInterval is set to 15 and ServerAliveCountMax is left at the default, if the server becomes unresponsive, ssh will disconnect after approximately 45 seconds. This option applies to protocol version 2 only.
 # SSH across 3 machines
 * Source localhost port 8002
 * Target 192.168.5.10 port 5432
