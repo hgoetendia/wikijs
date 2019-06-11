@@ -45,7 +45,7 @@ python setup.py install
 ## Activating and registering 
 
 ```sh
-yowsup-cli registration --requestcode sms --config-phone 51XXXXXXXXX--config-cc 51 --config-mcc 716 --config-mnc 06
+yowsup-cli registration --requestcode sms --config-phone 51XXXXXXXXX --config-cc 51 --config-mcc 716 --config-mnc 06
 
 yowsup-cli registration --register 469835 --config-phone 51XXXXXXXXX
 ```
