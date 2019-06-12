@@ -3,6 +3,7 @@
 * [Basics](/emacs/basics)
 * [Snippets](emacs/snippets)
 * [Init file alternative](emacs/initfiledotemacs)
+* [Tramp (edit using ssh)](emacs/tramp)
 ---
 * [C/C++](/emacs/ccplusplus)
 * [ReactJS](/emacs/reactjs)
