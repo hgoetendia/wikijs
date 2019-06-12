@@ -279,6 +279,20 @@ F12 to toggle neotree window
 ```
 
 
+## Line numbers 
+
+
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;Line numbers in code        ;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;(global-linum-mode 1)
+(add-hook 'prog-mode-hook 'linum-mode)
+;(setq linum-format "%4d \u2502 ") ;With vertical bar
+(setq linum-format "%d ")
+```
+
 
 # All together
 
@@ -380,6 +394,15 @@ F12 to toggle neotree window
 ;;;;;;;;;;;;;;;;;;;;;;;;Left/Right window margin;;;;;;;;;;;
  (setq-default left-margin-width 1 right-margin-width 1) ; Define new widths.
  (set-window-buffer nil (current-buffer)) ;; Use them now.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;Line numbers in code        ;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;(global-linum-mode 1)
+(add-hook 'prog-mode-hook 'linum-mode)
+;(setq linum-format "%4d \u2502 ") ;With vertical bar
+(setq linum-format "%d ")
 
 ```
 
