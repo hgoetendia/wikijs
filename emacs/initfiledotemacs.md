@@ -1,5 +1,4 @@
-<!-- TITLE: Initfiledotemacs -->
-<!-- SUBTITLE: A quick summary of Initfiledotemacs -->
+<!-- TITLE: Init file emacs -->
 
 # Load alternative config file .emacs
 
