@@ -15,3 +15,7 @@
 * [XML preety print](/emacs/xmlprettyprint)
 ---
 * [GIT/MaGIT](/emacs/magit)
+
+---
+* [Term mode](/emacs/term)
+
