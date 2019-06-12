@@ -2,6 +2,7 @@
 
 * [Basics](/emacs/basics)
 * [Snippets](emacs/snippets)
+* [Init file alternative](emacs/initfiledotemacs)
 ---
 * [C/C++](/emacs/ccplusplus)
 * [ReactJS](/emacs/reactjs)
