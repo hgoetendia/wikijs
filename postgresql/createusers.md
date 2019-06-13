@@ -34,7 +34,7 @@ postgres=# GRANT myrole TO juan;
 
 
 ```text
-local] postgres@postgres=# \du                                                                                                                                                                                                               
+postgres=# \du                                                                                                                                                                                                               
                                       Lista de roles                                                                                                                                                                                          
  Nombre de rol  |                         Atributos                          | Miembro de                                                                                                                                                     
 ----------------+------------------------------------------------------------+------------                                                                                                                                                    
