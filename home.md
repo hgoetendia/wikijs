@@ -74,5 +74,6 @@
 # Electronics
 
 * [Serial communications](/electronics/serialcommunications)
+* [PICS](/electronics/pics)
 
 
