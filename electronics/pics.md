@@ -21,3 +21,23 @@ Vss- Negative supply voltage of A Field Effect Transistor.
 
 
 ![Pic 18 F 4550](/uploads/electronics/pic-18-f-4550.jpg "Pic 18 F 4550")
+
+
+
+# Hello world program using CCS.
+
+
+```c_cpp
+#include <main.h>
+
+void main()
+{
+   while(TRUE)
+   {
+       output_low(PIN_B7);
+       delay_ms(1000);
+       output_high(PIN_B7);
+       delay_ms(1000);
+   }
+}
+```
