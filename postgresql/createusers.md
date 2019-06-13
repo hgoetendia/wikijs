@@ -30,6 +30,19 @@ Grant role to user postgresql prompt:
 postgres=# GRANT myrole TO juan;
 ```
 
+# Show all users
+
+
+```text
+local] postgres@postgres=# \du                                                                                                                                                                                                               
+                                      Lista de roles                                                                                                                                                                                          
+ Nombre de rol  |                         Atributos                          | Miembro de                                                                                                                                                     
+----------------+------------------------------------------------------------+------------                                                                                                                                                    
+ oneuser        |                                                            | {consulta}                                                                                                                                                     
+ myuser         |                                                            | {consulta}                                                                                                                                                     
+ ouruser        |                                                            | {consulta}
+
+```
 
 # Creating database
 As postgres user
