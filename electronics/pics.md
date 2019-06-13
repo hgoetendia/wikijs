@@ -13,3 +13,8 @@ Vss- Negative supply voltage of A Field Effect Transistor.
 # Basic circuit:
 
 ![Pic 18 F 4550 Usb Communication](/uploads/electronics/pic-18-f-4550-usb-communication.jpg "Pic 18 F 4550 Usb Communication")
+
+
+#Data sheets, common PICS (PIC18F2550, PIC18F4550)
+
+![Pic 18 F 2550](/uploads/electronics/pic-18-f-2550.jpg "Pic 18 F 2550")
