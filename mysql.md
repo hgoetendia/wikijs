@@ -22,7 +22,7 @@
 
 * [Disable replication for the current session](mysql/disablereplicationforsession)
 
-
+mysqlcheck --fast -A --auto-repair -uadmtiaxa  -p
 
 # Tricks
 
