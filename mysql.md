@@ -24,6 +24,7 @@
 
 * [Check and repair](mysql/checkandrepair)
 
+* [Host ‘host_name’ is blocked because of many connection errors](mysql/host_nameisblockedbecauseofmanyconnectionerrors)
 # Tricks
 
 * [Load data](mysql/loaddata)
