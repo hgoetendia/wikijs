@@ -425,6 +425,19 @@ When press key 'End' and shows get an error `<select> is undefined`
 ;(setq linum-format "%4d \u2502 ") ;With vertical bar
 (setq linum-format "%d ")
 
+;; PuTTY fix. Ugly. Bad. But it works. (Good)
+;; Even when TERM=xterm-256color on bash and
+;; ~/.tmux.conf says:
+;;   set-window-option -g xterm-keys on
+;;   set -g default-terminal "xterm-256color"
+;; still, pressing <end> key results in error:
+;;   <select> is undefined
+;; This hack fixes the end key. Home key already
+;; worked on Linux/tmux (don't know about putty)
+;;
+(define-key global-map "\M-[1~" 'beginning-of-line)
+(define-key global-map [select] 'end-of-line)
+
 ```
 
 
