@@ -91,4 +91,14 @@ If you are going to use a navigator with the proxy SOCKS will need these changes
 
 
 
+# SCP with Proxy 
+Proxy: 192.168.1.2
+Port: 222
+
+Target server:192.168.10.5
+
+
+```sh
+scp -v -oProxyJump=myproxyuser@192.168.1.2:222 userintargetserver@192.168.10.5:/tmp/mydesiredfile.txt  ./
+```
 
