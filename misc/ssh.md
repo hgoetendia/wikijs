@@ -102,6 +102,24 @@ Target server:192.168.10.5
 scp -v -oProxyJump=myproxyuser@192.168.1.2:222 userintargetserver@192.168.10.5:/tmp/mydesiredfile.txt  ./
 ```
 
+# SSH to machine A via B in one command
+
+Note the -t on the first ssh command. Without it, it will fail:
+
+Without "-t" Pseudo-terminal will not be allocated because stdin is not a terminal.
+ssh_askpass: exec(/usr/bin/ssh-askpass): No such file or directory
+Permission denied, please try again.
+[...]
+It will force a real TTY to be allocated
+
+
+```sh
+ssh -t myuser1@192.168.1.1 -v ssh otheruser@10.10.10.2
+```
+
+
+
+
 # SSH Errors
 ## bind: Cannot assign requested address                                                                                                                                                                                                         
 
