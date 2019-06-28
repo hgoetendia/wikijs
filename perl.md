@@ -4,3 +4,4 @@
 
 * [UDP server/client](/perl/udpserverclient)
 * [CPAN](/perl/cpan)
+* [Hash](/perl/hash)
