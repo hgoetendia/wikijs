@@ -109,3 +109,15 @@ scp -v -oProxyJump=myproxyuser@192.168.1.2:222 userintargetserver@192.168.10.5:/
 $ ssh -D 12345  myuser@192.168.1.6 -p222                                                                                                                                                          bind: Cannot assign requested address                                                                                                                                                             Last login: Fri Jun 28 12:04:44 2019 from 190.187.64.106                                                                                                                                         [myuser@192.168.1.6 ~]$
 
 ```
+Check:
+
+* If local port (12345) is free, and the remote port had something listening on it.
+
+* Check if It’s trying to bind on an IPv6 address, not IPv4. Solution: Force bind port to IPV4
+
+
+```sh
+ssh -4 -D 12345  myuser@192.168.1.6 -p222
+```
+
+
