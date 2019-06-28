@@ -1,6 +1,8 @@
 <!-- TITLE: Create Html table hash based-->
 <!-- SUBTITLE: A quick summary of Htmltable -->
 
+
+```perl
 print "<table border='1' style='border-collapse:collapse;'>";
 
 foreach my $key (keys %valores)
@@ -69,3 +71,5 @@ foreach my $key (keys %valores)
     print "</tr>";    
 }
 print "</table>";
+```
+
