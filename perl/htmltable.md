@@ -1,6 +1,4 @@
 <!-- TITLE: Create Html table hash based-->
-<!-- SUBTITLE: A quick summary of Htmltable -->
-
 
 ```perl
 print "<table border='1' style='border-collapse:collapse;'>";
