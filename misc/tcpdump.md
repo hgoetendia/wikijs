@@ -26,3 +26,14 @@ Change ens192 to right network interface and 80 to specific port.
 ```sh
 tcpdump  -s 0 -i ens192 -A 'tcp dst port 80 and tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x47455420 or tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x504F5354 or tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x48545450 or tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x3C21444F'
 ```
+
+# Show TCP SYN/ACK packets - each established TCP conversation excluding localhost:
+
+By selecting on the tcp-syn and tcp-fin packets we can show each established TCP conversation with timestamps but without the data. As with many filters this allows the amount of noise to be reduced in order to focus in on the information that you care about.
+
+-nn  Do not convert protocol names.
+
+```sh
+# tcpdump -nn -ieth0 'tcp[tcpflags] & (tcp-syn|tcp-fin) != 0 and not src and dst net 127.0.0.1'
+```
+
