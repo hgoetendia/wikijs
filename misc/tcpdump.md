@@ -34,6 +34,6 @@ By selecting on the tcp-syn and tcp-fin packets we can show each established TCP
 -nn  Do not convert protocol names.
 
 ```sh
-# tcpdump -nn -ieth0 'tcp[tcpflags] & (tcp-syn|tcp-fin) != 0 and not src and dst net 127.0.0.1'
+tcpdump -nn -ieth0 'tcp[tcpflags] & (tcp-syn|tcp-fin) != 0 and not src and dst net 127.0.0.1'
 ```
 
