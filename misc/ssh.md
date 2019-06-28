@@ -102,3 +102,10 @@ Target server:192.168.10.5
 scp -v -oProxyJump=myproxyuser@192.168.1.2:222 userintargetserver@192.168.10.5:/tmp/mydesiredfile.txt  ./
 ```
 
+# SSH Errors
+## bind: Cannot assign requested address                                                                                                                                                                                                         
+
+```sh
+$ ssh -D 12345  myuser@192.168.1.6 -p222                                                                                                                                                          bind: Cannot assign requested address                                                                                                                                                             Last login: Fri Jun 28 12:04:44 2019 from 190.187.64.106                                                                                                                                         [myuser@192.168.1.6 ~]$
+
+```
