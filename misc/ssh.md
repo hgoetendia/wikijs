@@ -121,5 +121,15 @@ Check:
 ```sh
 $ ssh -4 -D 12345  myuser@192.168.1.6 -p222
 ```
+To permanently disable IPv6, edit your ~/.ssh/config and add:
 
+
+```sh
+$ vi ~/.ssh/config
+Host *
+    AddressFamily inet
+
+```
+		
+That will make sure SSH never even tries anything with IPv6.
 
