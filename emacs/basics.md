@@ -293,6 +293,16 @@ F12 to toggle neotree window
 (setq linum-format "%d ")
 ```
 
+## Winner Mode                                                                                                                                                                      
+
+```lisp
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;; Winner mode : Undo window operations;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(winner-mode 1)
+```
+
+
 
 ## Extras
 
@@ -425,6 +435,12 @@ When press key 'End' and shows get an error `<select> is undefined`
 (add-hook 'prog-mode-hook 'linum-mode)
 ;(setq linum-format "%4d \u2502 ") ;With vertical bar
 (setq linum-format "%d ")
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;; Winner mode : Undo window operations;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(winner-mode 1)
+
 
 ;; PuTTY fix. Ugly. Bad. But it works. (Good)
 ;; Even when TERM=xterm-256color on bash and
