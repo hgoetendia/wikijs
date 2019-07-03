@@ -11,3 +11,4 @@
 * [Edit/List functions](/postgresql/editfunction)
 * [Create types](/postgresql/createtypes)
 * [Executing queryes](postgresql/executeqry)
+* [Replication](postgresql/replication)
