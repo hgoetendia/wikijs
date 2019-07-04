@@ -27,6 +27,8 @@
 * [Host ‘host_name’ is blocked because of many connection errors](mysql/host_nameisblockedbecauseofmanyconnectionerrors)
 
 * [Table sizes in MB](mysql/tablesizesinmb)
+
+* [Replication](mysql/replication)
 # Tricks
 
 * [Load data](mysql/loaddata)
