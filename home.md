@@ -56,6 +56,7 @@
 * [ssh](/misc/ssh)
 * [haproxy](/misc/haproxy)
 * [Tcpdump](/misc/tcpdump)
+* [sed](/misc/sed)
 * [Tmux](/misc/tmux)
 * [https: Let’s Encrypt](/misc/letsencrypt)
 * [curl](/misc/curl)
