@@ -22,6 +22,21 @@ set-option -g mouse on
 
 set -g default-terminal "xterm-256color"
 
+# Paste con clipboard
+bind-key -n C-y \
+  run "tmux set-buffer \"$(xclip -o -sel clipboard)\"; tmux paste-buffer" \;\
+  display-message 'Pegando..'
+
+# Copy con clipboard
+bind-key -n  -T copy-mode M-w  \
+  send-keys -X copy-pipe-and-cancel  "tmux save-buffer - | xclip -i -selection clipboard > /dev/null 2>&1" \;\
+  display-message 'Copiando..'
+#set -g set-clipboard on
+
+# History
+set-option -g history-limit 100000
+
+
 ######################
 ### DESIGN CHANGES ###
 ######################
