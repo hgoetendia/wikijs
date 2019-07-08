@@ -1,7 +1,8 @@
 <!-- TITLE: Haproxy -->
-<!-- SUBTITLE: A quick summary of Haproxy -->
 
 # Proxy TCP socket to forward to another IP/PORT
+
+IP to forward 3307 to 192.168.0.83:3306 
 
 
 ```text
@@ -70,7 +71,7 @@ listen  main
 # round robin balancing between the various backends
 #---------------------------------------------------------------------
 backend app
-    server  app0 172.16.0.83:3306 check
+    server  app0 192.168.0.83:3306 check
 
 ##Monitor haproxy
 listen stats # Define a listen section called "stats"
@@ -81,6 +82,14 @@ listen stats # Define a listen section called "stats"
  stats realm Haproxy\ Statistics  # Title text for popup window
  stats uri /haproxy_stats  # Stats URI
  stats auth haproxy:haproxy123  # Authentication credentials
+
+```
+
+Lauching haproxy
+
+
+```sh
+./haproxy -D -f myhaproxy.cfg
 
 ```
 
