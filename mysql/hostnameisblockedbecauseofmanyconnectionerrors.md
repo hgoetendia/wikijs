@@ -1,5 +1,4 @@
 <!-- TITLE: Host ‘host_name’ is blocked because of many connection errors -->
-<!-- SUBTITLE: A quick summary of Hostnameisblockedbecauseofmanyconnectionerrors -->
 
 # Host ‘host_name’ is blocked because of many connection errors.
 
