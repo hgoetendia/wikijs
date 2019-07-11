@@ -1,6 +1,13 @@
 <!-- TITLE: Opizero -->
 <!-- SUBTITLE: A quick summary of Opizero -->
 
+
+# Orange pi zero
+
+
+
+![Screenshot From 2019 07 11 04 50 30](/uploads/electronics/screenshot-from-2019-07-11-04-50-30.png "Screenshot From 2019 07 11 04 50 30")
+
 # ARMbian
 
 ## Build
