@@ -3,7 +3,7 @@
 
 
 # Orange pi zero
-
+![Screenshot From 2019 07 11 04 53 27](/uploads/electronics/screenshot-from-2019-07-11-04-53-27.png "Screenshot From 2019 07 11 04 53 27")
 
 
 ![Screenshot From 2019 07 11 04 50 30](/uploads/electronics/screenshot-from-2019-07-11-04-50-30.png "Screenshot From 2019 07 11 04 50 30")
