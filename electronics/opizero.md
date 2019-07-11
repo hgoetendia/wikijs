@@ -26,3 +26,13 @@ set to “no” to build complete OS image for writing to SD card
 leave empty to display selection dialog each time
 set to “yes” to configure kernel (add or remove modules or features). Kernel configuration menu will be brought up before compilation
 set to “no” to compile kernel without changing default or custom provided configuration
+
+
+## Install in SD Card
+
+
+```sh
+sudo dd bs=1M if=/home/xxx/armbian/build/output/images/Armbian_5.91_Orangepizero_Debian_buster_next_4.19.57.img of=/dev/sdc
+```
+
+
