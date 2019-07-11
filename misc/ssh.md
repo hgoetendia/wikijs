@@ -18,6 +18,15 @@ Sets a timeout interval in seconds after which if no data has been received from
 * ServerAliveCountMax
 
 The default value is 3. If, for example, ServerAliveInterval is set to 15 and ServerAliveCountMax is left at the default, if the server becomes unresponsive, ssh will disconnect after approximately 45 seconds. This option applies to protocol version 2 only.
+
+If ssh returns `Bad owner or permissions on ~/.ssh/config` 
+
+
+```sh
+chmod 600 ~/.ssh/config
+```
+
+
 # SSH across 3 machines
 * Source localhost port 8002
 * Target 192.168.5.10 port 5432
