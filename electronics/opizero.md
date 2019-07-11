@@ -32,7 +32,11 @@ set to “no” to compile kernel without changing default or custom provided co
 
 
 ```sh
-sudo dd bs=1M if=/home/xxx/armbian/build/output/images/Armbian_5.91_Orangepizero_Debian_buster_next_4.19.57.img of=/dev/sdc
+sudo dd bs=1M if=/home/xxx/armbian/build/output/images/Armbian_5.91_Orangepizero_Debian_buster_next_4.19.57.img of=/dev/sdc conv=fdatasync
 ```
 
+* fdatasync - physically write output file data before finishing
+* fsync - likewise, but also write metadata
+* dsync - use synchronized I/O for data
+* sync - likewise, but also for metadata
 
