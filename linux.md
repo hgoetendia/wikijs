@@ -7,6 +7,7 @@
 * [NTP](/linux/ntp)
 * [Iptables](/linux/iptables)
 * [File permissions](/linux/filepermissions)
+* [Sudo](/linux/sudo)
 # Tricks
 
 * [Delete specific line number(s) from a text file](/linux/deletelinesfromfile)
