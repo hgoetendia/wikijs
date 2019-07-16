@@ -38,6 +38,20 @@ Replace this line
 #CORES=$((`cat /proc/cpuinfo | grep processor | wc -l` - 1))
 CORES=1
 ```
+
+Backup the uboot/Makefile
+
+Replace uboot for https://github.com/friendlyarm/h3_lichee/tree/master/brandy/u-boot-2011.09 then replace this lines in  uboot/arch/arm/config.mk
+
+```text
+#CROSS_COMPILE ?= $(CURDIR)/../toolchain/gcc-arm/bin/arm-linux-gnueabi-
+CROSS_COMPILE ?= $(CURDIR)/../toolchain/bin/arm-linux-gnueabi-
+
+```
+
+Replace the backuped the uboot/Makefile for the backuped one.
+
+
 Then:
 
 ```sh
