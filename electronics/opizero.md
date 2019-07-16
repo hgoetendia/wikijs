@@ -8,6 +8,49 @@
 
 ![Screenshot From 2019 07 11 04 50 30](/uploads/electronics/screenshot-from-2019-07-11-04-50-30.png "Screenshot From 2019 07 11 04 50 30")
 
+
+# OrangePi Build System
+https://github.com/orangepi-xunlong/OrangePi_Build
+
+OS base: ubuntu-18.04.2-desktop-amd64.iso
+
+
+```sh
+git clone https://github.com/orangepi-xunlong/OrangePi_Build.git
+cd OrangePi_Build
+./Build_OrangePi.sh
+
+```
+
+Choose Orange Pi Zero
+
+
+```sh
+cd OrangePiH2
+
+```
+
+edit OrangePiH2/scripts/uboot_compile.sh
+
+Replace this line
+
+```sh
+#CORES=$((`cat /proc/cpuinfo | grep processor | wc -l` - 1))
+CORES=1
+```
+Then:
+
+```sh
+./build.sh
+```
+
+
+
+
+
+
+
+
 # ARMbian
 
 ## Build
@@ -46,4 +89,6 @@ sudo dd bs=1M if=/home/xxx/armbian/build/output/images/Armbian_5.91_Orangepizero
 * fsync - likewise, but also write metadata
 * dsync - use synchronized I/O for data
 * sync - likewise, but also for metadata
+
+
 
