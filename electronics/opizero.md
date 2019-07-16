@@ -52,6 +52,14 @@ CROSS_COMPILE ?= $(CURDIR)/../toolchain/bin/arm-linux-gnueabi-
 Replace the backuped the uboot/Makefile for the backuped one.
 
 
+
+```sh
+sudo apt purge qemu-user-static
+sudo apt install qemu-user-static
+```
+
+
+
 Then:
 
 ```sh
