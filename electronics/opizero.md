@@ -39,9 +39,13 @@ Replace this line
 CORES=1
 ```
 
+
 Backup the uboot/Makefile
 
-Replace uboot for https://github.com/friendlyarm/h3_lichee/tree/master/brandy/u-boot-2011.09 then replace this lines in  uboot/arch/arm/config.mk
+
+Replace uboot for https://github.com/friendlyarm/h3_lichee/tree/master/brandy/u-boot-2011.09  or download from [Uboot](/uploads/electronics/uboot.tgz "Uboot")
+
+then replace this lines in  uboot/arch/arm/config.mk
 
 ```text
 #CROSS_COMPILE ?= $(CURDIR)/../toolchain/gcc-arm/bin/arm-linux-gnueabi-
