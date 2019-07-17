@@ -62,6 +62,23 @@ sudo apt purge qemu-user-static
 sudo apt install qemu-user-static
 ```
 
+Create eth0 config file:
+
+OrangePiH2/output/rootfs/etc/network/interfaces.d/eth0
+
+Like this
+
+
+```text
+auto eth0
+iface eth0 inet static
+        address 192.168.0.110
+        netmask 255.255.255.0
+        gateway 192.168.0.1
+        dns-nameservers 8.8.8.8
+
+```
+
 
 
 Then:
