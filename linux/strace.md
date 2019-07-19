@@ -17,3 +17,7 @@ sudo strace -p 1234 -s9024
 sudo strace -F -p 1234
 ```
 
+# To trace child process that's fork()ed.
+```text
+strace -f 
+```
