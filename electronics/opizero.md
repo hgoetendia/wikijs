@@ -136,4 +136,97 @@ sudo dd bs=1M if=/home/xxx/armbian/build/output/images/Armbian_5.91_Orangepizero
 * sync - likewise, but also for metadata
 
 
+## Making live
+
+Boot the new armbian SD:
+
+change root password
+
+
+
+```sh
+apt-get install live-boot
+```
+
+Edit armbianEnv.txt and add overlays for uart1 and uart2
+
+
+```sh
+root@orangepizero:/boot# cat armbianEnv.txt
+verbosity=1
+logo=disabled
+console=serial
+disp_mode=1920x1080p60
+overlay_prefix=sun8i-h3
+overlays=usbhost2 usbhost3 uart1 uart2
+rootdev=UUID=7218f06f-6b47-4a0a-89fe-f1c500cbe13c
+rootfstype=ext4
+root@orangepizero:/boot#
+```
+
+
+Edit /etc/fstab and add 0 0 to root partition
+
+
+```sh
+root@orangepizero:/boot# cat /etc/fstab
+UUID=7218f06f-6b47-4a0a-89fe-f1c500cbe13c / ext4 defaults,noatime,nodiratime,commit=600,errors=remount-ro 0 0
+tmpfs /tmp tmpfs defaults,nosuid 0 0
+root@orangepizero:/boot#
+```
+
+In armbian distro Install live-boot
+
+
+```sh
+# apt-get install live-boot
+```
+
+
+in /boot/boot.cmd replace this line
+
+
+```sh
+setenv bootargs "root=${rootdev} rootwait rootfstype=${rootfstype} ${consoleargs} hdmi.audio=EDID:0 disp.screen0_output_mode=${disp_mode} panic=10 consoleblank=0 loglevel=${verbosity} ubootpart=${partuuid} ubootsource=${devtype} usb-storage.quirks=${usbstoragequirks} ${extraargs} ${extraboardargs}"
+```
+
+By
+
+
+```sh
+setenv bootargs "boot=live live-boot-path=/live union=overlay ${consoleargs} hdmi.audio=EDID:0 disp.screen0_output_mode=${disp_mode} consoleblank=0 loglevel=${verbosity} ubootpart=${partuuid} ubootsource=${devtype} ${extraargs} ${extraboardargs}"
+```
+
+
+Then execute:
+
+
+```sh
+mkimage -C none -A arm -T script -d /boot/boot.cmd /boot/boot.scr
+```
+
+then shutdown Opi Armbian.
+
+
+In other computer mount the SD 
+
+
+```sh
+sudo mkdir  /imagemnt
+sudo umount /dev/sdc1
+sudo mount /dev/sdc1 /imagemnt
+sudo mkdir /imagemnt/live
+sudo mksquashfs /imagemnt /tmp/filesystem.squashfs
+cd /imagemnt
+sudo rm -rf bin  dev  etc  home  lib  media  mnt  opt  proc  root  run  sbin  selinux  srv  sys  tmp  usr  var
+sudo mv /tmp/filesystem.squashfs /imagemnt/live
+sudo umount /imagemnt
+
+```
+
+ Then boot the SD
+
+
+
+
 
