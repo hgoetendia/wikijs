@@ -136,6 +136,10 @@ sudo dd bs=1M if=/home/xxx/armbian/build/output/images/Armbian_5.91_Orangepizero
 * sync - likewise, but also for metadata
 
 
+## Minimal armbian for Opizero
+
+`/build/userpatches` files  [Userpatches Armbianopiz Minimal](/uploads/electronics/userpatches-armbianopiz-minimal.tgz "Userpatches Armbianopiz Minimal")
+
 ## Making live
 
 Boot the new armbian SD:
