@@ -20,3 +20,7 @@
 # Other
 
 * [Wine](/linux/wine)
+
+# Debian
+
+* [Make DEB packages](/linux/makedeb)
