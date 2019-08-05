@@ -37,3 +37,23 @@ By selecting on the tcp-syn and tcp-fin packets we can show each established TCP
 tcpdump -nn -ieth0 'tcp[tcpflags] & (tcp-syn|tcp-fin) != 0 and not src and dst net 127.0.0.1'
 ```
 
+# Customizing output dump file:
+
+Args:
+
+```text
+-G Rotate_seconds
+-s Snarf  snaplen bytes of data from each packet rather than the default of 65535 bytes.  Packets truncated because of a limited snapshot are indicated in the output with ‘‘[|proto]’’, where proto is the name of the protocol level at which the truncation has occurred
+```
+
+Command:
+
+```sh
+sudo tcpdump -s2000 -G60 -ieth0 port 20120 -wHelloWorld_%F_%T_pcap -Zroot
+
+```
+
+Output:
+
+HelloWorld_2019-08-05_15:29:41_pcap
+
