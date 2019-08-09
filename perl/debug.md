@@ -37,5 +37,11 @@ DB<18> L
   break if (1)
 ```
 
+* Delete breakpoing
+
+
+```text
+DB<16> d 12
+```
 
 
