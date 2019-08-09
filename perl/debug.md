@@ -1,5 +1,5 @@
-<!-- TITLE: Debug -->
-<!-- SUBTITLE: A quick summary of Debug -->
+<!-- TITLE: Debugging PERL -->
+
 
 # In EMACS
 
