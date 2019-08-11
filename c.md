@@ -6,3 +6,5 @@
 * [strncmp](/c/strncmp)
 
 * [errno](/c/errno)
+
+* [sizeof](/c/sizeof)
