@@ -3,6 +3,8 @@
 
 # Split a file into equal parts, without breaking individual lines
 
+l = Leter l
+
 ```sh
 split -n l/5 your_file.txt
 
