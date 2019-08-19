@@ -33,4 +33,5 @@ sudo /sbin/hwclock --systohc --utc
 
 ```sh
 sudo /usr/sbin/ntpdate -u pool.ntp.org
+sudo /sbin/hwclock --systohc --utc
 ```
