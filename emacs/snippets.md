@@ -13,7 +13,7 @@ In emacs command line:
 
 In bash:
 
-`mkdir -p ~/.emacs.d/plugins/snippets`
+`mkdir -p ~/.emacs.d/snippets`
 
 Add this to `~/.emacs` configfile
 
@@ -22,7 +22,7 @@ Add this to `~/.emacs` configfile
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Yasnippet;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (add-to-list 'load-path
-              "~/.emacs.d/plugins/snippets")
+              "~/.emacs.d/snippets")
 (require 'yasnippet)
 (yas-global-mode 1)
 ```
