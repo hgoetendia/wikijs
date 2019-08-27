@@ -13,7 +13,7 @@ In emacs command line:
 
 In bash:
 
-`mkdir -p~/.emacs.d/plugins/snippets`
+`mkdir -p ~/.emacs.d/plugins/snippets`
 
 Add this to `~/.emacs` configfile
 
