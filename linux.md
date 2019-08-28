@@ -13,7 +13,7 @@
 
 * [Delete specific line number(s) from a text file](/linux/deletelinesfromfile)
 * [Replace characters to others](/linux/replacecharacterstoothers)
-
+* [Remove lines included in one file from another file](/linux/removelinesincludedinonefilefromanotherfile)
 # Tunning
 * [SYN without SYN/ACK response](/tcpip/synwithoutsynack)
 
