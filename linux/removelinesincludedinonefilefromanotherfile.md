@@ -1,5 +1,4 @@
-<!-- TITLE: Removelinesincludedinonefilefromanotherfile -->
-<!-- SUBTITLE: A quick summary of Removelinesincludedinonefilefromanotherfile -->
+<!-- TITLE: Remove lines included in one file from another file -->
 
 
 ```sh
