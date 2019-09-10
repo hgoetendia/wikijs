@@ -21,6 +21,10 @@ mysqldump -u root -p --databases database_name_a database_name_b > databases_a_b
 mysqldump --no-data -u someuser -p mydatabase
 ```
 
+# Dump 
+
+mysqldump -uroot -p  DCO2mspe --routines > DCO2mspe_20190910.sql
+
 # Query to CSV
 
 ```mysql
