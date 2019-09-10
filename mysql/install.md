@@ -50,7 +50,13 @@ mysql>
 # mysql_install_db --user=mysql
 
 # chmod 755 /etc/rc.d/rc.mysqld
+```
 
+Enable networking if needed 
+Networking is disabled by default to improve security. If you want to allow network connections, comment out this line in /etc/rc.d/rc.mysqld:
+rc.mysqld `#SKIP="--skip-networking"`
+
+```text
 # /etc/rc.d/rc.mysqld start
 
 # /usr/bin/mysqladmin -u root password 'your-pass-here'
