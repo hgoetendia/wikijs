@@ -21,9 +21,18 @@ mysqldump -u root -p --databases database_name_a database_name_b > databases_a_b
 mysqldump --no-data -u someuser -p mydatabase
 ```
 
-# Dump 
+# Dump including, triggers, functions
 
+```text
 mysqldump -uroot -p  MyDB --routines > MyDB.sql
+```
+
+# Dump certain tables
+
+```text
+mysqldump -uroot -p mydb t1 t2 t3 > mydb_tables.sql
+
+```
 
 # Query to CSV
 
