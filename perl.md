@@ -7,3 +7,4 @@
 * [Hash](/perl/hash)
 * [HTML-Table](/perl/htmltable)
 * [Debug](/perl/debug)
+* [Installed modules](/perl/installedmodules)
