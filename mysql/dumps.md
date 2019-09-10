@@ -23,7 +23,7 @@ mysqldump --no-data -u someuser -p mydatabase
 
 # Dump 
 
-mysqldump -uroot -p  DCO2mspe --routines > DCO2mspe_20190910.sql
+mysqldump -uroot -p  MyDB --routines > MyDB.sql
 
 # Query to CSV
 
