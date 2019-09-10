@@ -30,3 +30,32 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 mysql>
 
 ```
+
+
+# MySQL in Slackware
+
+
+```text
+# slackpkg install mysql
+
+# ls -l /etc/my*
+
+-rw-r--r-- 1 root root 4780 2010-05-05 15:53 /etc/my-huge.cnf
+-rw-r--r-- 1 root root 4754 2010-05-05 15:53 /etc/my-large.cnf
+-rw-r--r-- 1 root root 4765 2010-05-05 15:53 /etc/my-medium.cnf
+-rw-r--r-- 1 root root 2403 2010-05-05 15:53 /etc/my-small.cnf
+
+# cp /etc/my-small.cnf /etc/my.cnf
+
+# mysql_install_db --user=mysql
+
+# chmod 755 /etc/rc.d/rc.mysqld
+
+# /etc/rc.d/rc.mysqld start
+
+# /usr/bin/mysqladmin -u root password 'your-pass-here'
+
+# mysql_secure_installation
+
+```
+
