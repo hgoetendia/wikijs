@@ -1,6 +1,21 @@
 <!-- TITLE: Create and grantuser -->
 
-# Grant all privileges to a user identified by pass
+
+# Create an user
+
+
+```text
+mysq [localhost] {root} ((none)) > CREATE USER 'myuser'@'localhost' IDENTIFIED BY 'mypass';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql [localhost] {root} ((none)) > flush privileges;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql [localhost] {root} ((none)) > 
+```
+
+
+# Create and grant all privileges to a user identified by pass
 
 
 ```sql
