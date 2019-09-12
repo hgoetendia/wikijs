@@ -9,6 +9,7 @@
 * [File permissions](/linux/filepermissions)
 * [Sudo](/linux/sudo)
 * [Sort Uniq](/linux/sortuniq)
+* [Crontab](/linux/crontab)
 # Tricks
 
 * [Delete specific line number(s) from a text file](/linux/deletelinesfromfile)
