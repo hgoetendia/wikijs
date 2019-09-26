@@ -1,4 +1,4 @@
-<!-- TITLE: Create and grantuser -->
+<!-- TITLE: Create, grantuser, revoke -->
 
 
 # Create an user
@@ -31,4 +31,14 @@ mysql> flush privileges;
 ```sql
 mysql> grant select on mydb.* to 'myuser'@'192.168.10.1' identified by '2eLhWL1advPBzXi4';
 mysql> flush privileges;
+```
+
+# Revoke
+
+```sql
+mysql> REVOKE ALL PRIVILEGES ON *.* FROM 'myuser'@'%';
+mysql> drop user myuser;
+mysql> show grants for myuser;
+ERROR 1141 (42000): There is no such grant defined for user 'myuser' on host '%'
+ [localhost] {anUser} (MyDB) >
 ```
