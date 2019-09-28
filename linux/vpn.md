@@ -6,7 +6,8 @@
 
 
 ```text
-# ipsec auto --up myConn
+# ipsec auto --verbose --up myConn
+
 
 104 "myConn" #281: STATE_MAIN_I1: initiate
 003 "myConn" #281: received Vendor ID payload [draft-ietf-ipsec-nat-t-ike-02_n] method set to=106
