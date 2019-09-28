@@ -44,7 +44,7 @@ num  target     prot opt source               destination
 ## Remove iptables POSTROUTING NAT rule
 
 
-```sh
+```text
 [root@server ]# iptables -t nat -D POSTROUTING 1
 
 ```
