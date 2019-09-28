@@ -10,6 +10,7 @@
 * [Sudo](/linux/sudo)
 * [Sort Uniq](/linux/sortuniq)
 * [Crontab](/linux/crontab)
+* [VPN](/linux/vpn)
 # Tricks
 
 * [Delete specific line number(s) from a text file](/linux/deletelinesfromfile)
