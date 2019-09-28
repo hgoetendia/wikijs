@@ -1,4 +1,4 @@
-<!-- TITLE: Vpn -->
+<!-- TITLE: VPN -->
 <!-- SUBTITLE: A quick summary of Vpn -->
 
 # Errors
