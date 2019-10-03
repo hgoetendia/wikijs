@@ -61,3 +61,26 @@ HelloWorld_2019-08-05_15:29:41_pcap
 
 ```
 
+# Capture ICMP packets
+
+
+```sh
+/usr/sbin/tcpdump -iany -n icmp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode                                             
+listening on eth0, link-type EN10MB (Ethernet), capture size 96 bytes                                                  
+10:54:40.620156 IP 10.10.10.72 > 10.10.10.25: ICMP echo request, id 30327, seq 117, length 64
+10:54:40.620238 IP 10.10.10.25 > 10.10.10.72: ICMP echo reply, id 30327, seq 117, length 64
+10:54:41.620551 IP 10.10.10.72 > 10.10.10.25: ICMP echo request, id 30327, seq 118, length 64
+10:54:41.620551 IP 10.10.10.25 > 10.10.10.72: ICMP echo reply, id 30327, seq 118, length 64
+10:54:42.622551 IP 10.10.10.72 > 10.10.10.25: ICMP echo request, id 30327, seq 119, length 64
+10:54:42.622551 IP 10.10.10.25 > 10.10.10.72: ICMP echo reply, id 30327, seq 119, length 64
+10:54:43.621927 IP 10.10.10.72 > 10.10.10.25: ICMP echo request, id 30327, seq 120, length 64
+10:54:43.621949 IP 10.10.10.25 > 10.10.10.72: ICMP echo reply, id 30327, seq 120, length 64
+8 packets captured                                         
+8 packets received by filter                               
+0 packets dropped by kernel                                
+
+```
+
+
+
