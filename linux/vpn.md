@@ -17,6 +17,9 @@ Mechanism for payload encryption: AES-256
 ESP Transform: SHA-1
 Data Integrity: 3600s
 
+### PFS
+
+No PFS
 
 ## Host in (left) Fortigate Encription Domain:
 
