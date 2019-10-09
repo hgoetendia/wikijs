@@ -75,7 +75,7 @@ config setup
         #interfaces=%defaultroute
 
 # fortigate vpn ipsec
-conn movistarpefortigate
+conn elfortigate
         authby=secret
         auto=start
         pfs=no
