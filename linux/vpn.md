@@ -4,6 +4,11 @@
 
 # Conf
 
+# Host in (left) Fortigate Encription Domain:
+
+10.10.10.64
+
+# ipsec.conf
 
 ```sh
 # /etc/ipsec.conf - Libreswan IPsec configuration file
