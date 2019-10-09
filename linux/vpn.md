@@ -138,7 +138,7 @@ Checking for obsolete ipsec.conf options                [OK]
 
 
 ```text
-# ipsec auto --verbose --up myConn
+# ipsec auto --verbose --up elfortigate
 
 
 104 "myConn" #281: STATE_MAIN_I1: initiate
