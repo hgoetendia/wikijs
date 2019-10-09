@@ -12,6 +12,7 @@
 * [Crontab](/linux/crontab)
 * [VPN](/linux/vpn)
 * [Routes](/linux/routes)
+* [Rsync](/linux/rsync)
 # Tricks
 
 * [Delete specific line number(s) from a text file](/linux/deletelinesfromfile)
