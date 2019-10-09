@@ -1,5 +1,34 @@
 <!-- TITLE: VPN -->
 
+# Verify:
+
+
+```text
+[root@server]# ipsec verify
+Verifying installed system and configuration files
+
+Version check and ipsec on-path                         [OK]
+Libreswan 3.23 (netkey) on 3.10.0-229.14.1.el7.x86_64
+Checking for IPsec support in kernel                    [OK]
+ NETKEY: Testing XFRM related proc values
+         ICMP default/send_redirects                    [OK]
+         ICMP default/accept_redirects                  [OK]
+         XFRM larval drop                               [OK]
+Pluto ipsec.conf syntax                                 [OK]
+Two or more interfaces found, checking IP forwarding    [OK]
+Checking rp_filter                                      [OK]
+Checking that pluto is running                          [OK]
+ Pluto listening for IKE on udp 500                     [OK]
+ Pluto listening for IKE/NAT-T on udp 4500              [OK]
+ Pluto ipsec.secret syntax                              [OK]
+Checking 'ip' command                                   [OK]
+Checking 'iptables' command                             [OK]
+Checking 'prelink' command does not interfere with FIPS [OK]
+Checking for obsolete ipsec.conf options                [OK]
+[root@server]# 
+
+```
+
 # Conf
 
 ## Specs:
@@ -116,34 +145,7 @@ conn elfortigate
 ```
 
 
-# Verify:
 
-
-```text
-[root@server]# ipsec verify
-Verifying installed system and configuration files
-
-Version check and ipsec on-path                         [OK]
-Libreswan 3.23 (netkey) on 3.10.0-229.14.1.el7.x86_64
-Checking for IPsec support in kernel                    [OK]
- NETKEY: Testing XFRM related proc values
-         ICMP default/send_redirects                    [OK]
-         ICMP default/accept_redirects                  [OK]
-         XFRM larval drop                               [OK]
-Pluto ipsec.conf syntax                                 [OK]
-Two or more interfaces found, checking IP forwarding    [OK]
-Checking rp_filter                                      [OK]
-Checking that pluto is running                          [OK]
- Pluto listening for IKE on udp 500                     [OK]
- Pluto listening for IKE/NAT-T on udp 4500              [OK]
- Pluto ipsec.secret syntax                              [OK]
-Checking 'ip' command                                   [OK]
-Checking 'iptables' command                             [OK]
-Checking 'prelink' command does not interfere with FIPS [OK]
-Checking for obsolete ipsec.conf options                [OK]
-[root@server]# 
-
-```
 
 # Errors
 ## STATE_QUICK_I1: retransmission; will wait 20s for response
