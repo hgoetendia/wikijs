@@ -1,7 +1,10 @@
 <!-- TITLE: VPN -->
 
+# Diagram
+
 ![Vpnfortigate](/uploads/linux/vpnfortigate.png "Vpnfortigate")
-# Verify:
+
+# Verify
 
 
 ```text
