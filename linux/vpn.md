@@ -22,6 +22,15 @@ Data Integrity: 3600s
 
 10.10.10.64
 
+## Secrets
+
+
+```sh
+cat  /etc/ipsec.d/myVpn.secrets
+
+103.71.168.24 200.14.25.32 : PSK "apowerfullpassword"
+
+```
 
 ## ipsec.conf
 
