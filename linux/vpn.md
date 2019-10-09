@@ -9,10 +9,10 @@
 ### IKE Policy
 
 Message Encryption algorithm: AES-256
-Message integrity algorithm: SHA-1
-DH-Group: Group 2(1024 Bit)
-IKE Lifetime: 86400 segs
-Supports Aggressive Mode: NO
+Message integrity algorithm    : SHA-1
+DH-Group                                : Group 2(1024 Bit)
+IKE Lifetime                             : 86400 segs
+Supports Aggressive Mode     : NO
 
 ### IPSec Parameters
 Mechanism for payload encryption: AES-256
