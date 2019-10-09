@@ -1,5 +1,6 @@
 <!-- TITLE: VPN -->
 
+![Vpnfortigate](/uploads/linux/vpnfortigate.png "Vpnfortigate")
 # Verify:
 
 
