@@ -4,6 +4,22 @@
 
 # Conf
 
+## Specs:
+
+### IKE Policy
+
+Message Encryption algorithm: AES-256
+Message integrity algorithm: SHA-1
+DH-Group: Group 2(1024 Bit)
+IKE Lifetime: 86400 segs
+Supports Aggressive Mode: NO
+
+### IPSec Parameters
+Mechanism for payload encryption: AES-256
+ESP Transform: SHA-1
+Data Integrity: 3600s
+
+
 ## Host in (left) Fortigate Encription Domain:
 
 10.10.10.64
@@ -48,15 +64,15 @@ config setup
         #oe=off
         protostack=netkey
         #interfaces=%defaultroute
-#version 2.0
-#config setup
-#plutostderrlog="/var/log/ipsec_movis.log"
-#dumpdir=/var/run/pluto/
-#nat_traversal=yes
-#virtual_private=%v4:10.0.0.0/8,%v4:192.168.0.0/16,%v4:172.16.0.0/12
-#oe=off
-#protostack=netkey
-#interfaces=%defaultroute
+        #version 2.0
+        #config setup
+        #plutostderrlog="/var/log/ipsec_movis.log"
+        #dumpdir=/var/run/pluto/
+        #nat_traversal=yes
+        #virtual_private=%v4:10.0.0.0/8,%v4:192.168.0.0/16,%v4:172.16.0.0/12
+        #oe=off
+        #protostack=netkey
+        #interfaces=%defaultroute
 
 # fortigate vpn ipsec
 conn movistarpefortigate
@@ -71,11 +87,11 @@ conn movistarpefortigate
         phase2=esp
         phase2alg=aes256-sha1;modp1024
         ikelifetime=86400s
-        left=103.71.168.24
+        left=103.71.168.24  #Public IP
         leftsourceip=10.10.10.64
         leftsubnet=10.10.10.64/32
         leftnexthop=%defaultroute
-        right=200.14.25.32
+        right=200.14.25.32 #Public IP
         rightsubnet=10.10.23.0/27
         #rightnexthop=%defaultroute
 
