@@ -1,6 +1,89 @@
 <!-- TITLE: VPN -->
 <!-- SUBTITLE: A quick summary of Vpn -->
 
+
+# Conf
+
+
+```sh
+# /etc/ipsec.conf - Libreswan IPsec configuration file
+#
+# Manual:     ipsec.conf.5
+version 2.0
+config setup
+        # Normally, pluto logs via syslog. If you want to log to a file,
+        # specify below or to disable logging, eg for embedded systems, use
+        # the file name /dev/null
+        # Note: SElinux policies might prevent pluto writing to a log file at
+        #       an unusual location.
+        logfile=/var/log/pluto.log
+        plutostderrlog=/var/log/pluto.error.log
+        #
+        # Do not enable debug options to debug configuration issues!
+        #
+        # plutodebug "all", "none" or a combation from below:
+        # "raw crypt parsing emitting control controlmore kernel pfkey
+        #  natt x509 dpd dns oppo oppoinfo private".
+        # Note: "private" is not included with "all", as it can show confidential
+        #       information. It must be specifically specified
+        # examples:
+        # plutodebug="control parsing"
+        # plutodebug="all crypt"
+        plutodebug=all
+        # Again: only enable plutodebug when asked by a developer
+        #plutodebug=none
+        #nat_traversal=yes
+        # NAT-TRAVERSAL support
+        # exclude networks used on server side by adding %v4:!a.b.c.0/24
+        # It seems that T-Mobile in the US and Rogers/Fido in Canada are
+        # using 25/8 as "private" address space on their wireless networks.
+        # This range has never been announced via BGP (at least up to 2015)
+        virtual_private=%v4:10.0.0.0/8,%v4:192.168.0.0/16,%v4:172.16.0.0/12,%v4:25.0.0.0/8,%v4:100.64.0.0/10,%v6:fd00::/8,%v6:fe80::/10
+        #oe=off
+        protostack=netkey
+        #interfaces=%defaultroute
+#version 2.0
+#config setup
+#plutostderrlog="/var/log/ipsec_movis.log"
+#dumpdir=/var/run/pluto/
+#nat_traversal=yes
+#virtual_private=%v4:10.0.0.0/8,%v4:192.168.0.0/16,%v4:172.16.0.0/12
+#oe=off
+#protostack=netkey
+#interfaces=%defaultroute
+
+# fortigate vpn ipsec
+conn movistarpefortigate
+        authby=secret
+        auto=start
+        pfs=no
+        type=tunnel
+        ### phase 1 ###
+        ike=aes256-sha1;modp1024
+        keylife=3600s
+        ### phase 2 ###
+        phase2=esp
+        phase2alg=aes256-sha1;modp1024
+        ikelifetime=86400s
+        left=103.71.168.24
+        leftsourceip=10.10.10.64
+        leftsubnet=10.10.10.64/32
+        leftnexthop=%defaultroute
+        right=200.14.25.32
+        rightsubnet=10.10.23.0/27
+        #rightnexthop=%defaultroute
+
+# For example connections, see your distribution's documentation directory,
+# or https://libreswan.org/wiki/
+#
+# There is also a lot of information in the manual page, "man ipsec.conf"
+#
+# It is best to add your IPsec connections as separate files in /etc/ipsec.d/
+#include /etc/ipsec.d/*.conf
+
+```
+
+
 # Verify:
 
 
