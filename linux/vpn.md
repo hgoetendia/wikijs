@@ -1,6 +1,4 @@
 <!-- TITLE: VPN -->
-<!-- SUBTITLE: A quick summary of Vpn -->
-
 
 # Conf
 
