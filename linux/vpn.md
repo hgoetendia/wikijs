@@ -4,11 +4,12 @@
 
 # Conf
 
-# Host in (left) Fortigate Encription Domain:
+## Host in (left) Fortigate Encription Domain:
 
 10.10.10.64
 
-# ipsec.conf
+
+## ipsec.conf
 
 ```sh
 # /etc/ipsec.conf - Libreswan IPsec configuration file
@@ -141,6 +142,19 @@ Checking for obsolete ipsec.conf options                [OK]
 117 "myConn" #282: STATE_QUICK_I1: initiate
 010 "myConn" #282: STATE_QUICK_I1: retransmission; will wait 20s for response
 010 "myConn" #282: STATE_QUICK_I1: retransmission; will wait 40s for response
+
+```
+
+## Route table:
+
+
+```text
+# route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         gateway         0.0.0.0         UG    100    0        0 eth0
+default         gateway         0.0.0.0         UG    101    0        0 eth1
+10.10.23.0      gateway         255.255.255.224 UG    0      0        0 eth0
 
 ```
 
