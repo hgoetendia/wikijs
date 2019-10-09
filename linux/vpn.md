@@ -31,7 +31,7 @@ Checking for obsolete ipsec.conf options                [OK]
 
 # Conf
 
-## Specs:
+## Specs
 
 ### IKE Policy
 
