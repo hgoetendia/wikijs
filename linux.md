@@ -15,7 +15,7 @@
 * [Rsync](/linux/rsync)
 
 # Bash
-* [Rsync](/linux/bash/prompt)
+* [Prompt](/linux/bash/prompt)
 
 # Tricks
 
