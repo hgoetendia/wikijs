@@ -13,6 +13,10 @@
 * [VPN](/linux/vpn)
 * [Routes](/linux/routes)
 * [Rsync](/linux/rsync)
+
+# Bash
+* [Rsync](/linux/bash/prompt)
+
 # Tricks
 
 * [Delete specific line number(s) from a text file](/linux/deletelinesfromfile)
