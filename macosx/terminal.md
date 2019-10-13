@@ -1,6 +1,4 @@
 <!-- TITLE: Terminal -->
-<!-- SUBTITLE: A quick summary of Terminal -->
-
 # Errors
 
 ## LC_CTYPE: cannot change locale (UTF-8): No such file or directory
