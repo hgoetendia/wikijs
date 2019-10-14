@@ -87,15 +87,20 @@ Or
 
 
 ```text
-[user@MBA:~]$ ssh-copy-id -p 222 hgoetendia@192.168.1.10
+[user@MBA:~]$ ssh-copy-id -p 222 otheruser@192.168.1.10
 /usr/bin/ssh-copy-id: ERROR: No identities found
+```
+
+Solution
+
+```text
 [user@MBA:~]$ ssh-keygen -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/horacio/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
-Your identification has been saved in /Users/horacio/.ssh/id_rsa.
-Your public key has been saved in /Users/horacio/.ssh/id_rsa.pub.
+Your identification has been saved in /Users/user/.ssh/id_rsa.
+Your public key has been saved in /Users/user/.ssh/id_rsa.pub.
 The key fingerprint is:
 SHA256:q4NEKaxIwKSlZTJxTW4BSJMBS1g8 user@MBA.local
 The key's randomart image is:
