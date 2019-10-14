@@ -83,6 +83,29 @@ Alternatively if you dont have `ssh-copy-id` you can execute this from source:
 cat ~/.ssh/id_rsa.pub | ssh horacio@target "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >>  ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
 ```
 
+Or
+
+
+```text
+[user@MBA:~]$ ssh-copy-id -p 222 hgoetendia@192.168.1.10
+/usr/bin/ssh-copy-id: ERROR: No identities found
+[user@MBA:~]$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/horacio/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/horacio/.ssh/id_rsa.
+Your public key has been saved in /Users/horacio/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:q4NEKaxIwKSlZTJxTW4BSJMBS1g8 user@MBA.local
+The key's randomart image is:
++---[RSA 2048]----+
+
++----[SHA256]-----+
+[user@MBA:~]$ ssh-copy-id -p 222 otheruser@192.168.1.10
+```
+
+
 # SSH SOCKS proxy
 
 Local port: 12345
