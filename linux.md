@@ -13,7 +13,7 @@
 * [VPN](/linux/vpn)
 * [Routes](/linux/routes)
 * [Rsync](/linux/rsync)
-
+* [dos2unix](/linux/dos2unix)
 # Bash
 * [Prompt](/linux/bash/prompt)
 
