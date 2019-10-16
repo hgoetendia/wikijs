@@ -193,3 +193,71 @@ default         gateway         0.0.0.0         UG    101    0        0 eth1
 ## Solution
 
 i finally got this working!!! one the other side, the third party had enabled pfs at their side, yet at my side i had disabled pfs, (pfs=no).. the third party have a cisco asa fw!, after disabling pfs, everything worked like charm, SA were established.. and would ping their LAN nodes behind the ASA fw!!
+
+
+# Taking traffic dumps on Linux (Capture outgoing and incomming packets across VPN):
+
+The following rules use nflog group 5. Adjust the value for whatever group you're using.
+
+ingress IPsec and IKE Traffic rule
+
+
+```text
+iptables -t raw -I PREROUTING -p esp -j NFLOG --nflog-group 5
+iptables -t raw -I PREROUTING -p ah -j NFLOG --nflog-group 5
+iptables -t raw -I PREROUTING -p udp -m multiport --dports 500,4500 -j NFLOG --nflog-group 5
+```
+
+
+egress IPsec and IKE traffic
+
+
+```text
+iptables -t raw -I OUTPUT -p esp -j NFLOG --nflog-group 5
+iptables -t raw -I OUTPUT -p ah -j NFLOG --nflog-group 5
+iptables -t raw -I OUTPUT -p udp -m multiport --dports 500,4500 -j NFLOG --nflog-group 5
+```
+
+
+decapsulated IPsec traffic
+
+
+```text
+iptables -t mangle -I PREROUTING -m policy --pol ipsec --dir in -j NFLOG --nflog-group 5
+iptables -t mangle -I POSTROUTING -m policy --pol ipsec --dir out -j NFLOG --nflog-group 5
+```
+
+
+IPsec traffic that is destinated for the local host (iptables INPUT chain)
+
+
+```text
+iptables -t filter -I INPUT -m addrtype --dst-type LOCAL -m policy --pol ipsec --dir in -j NFLOG --nflog-group 5
+
+```
+
+IPsec traffic that is destinated for a remote host (iptables FORWARD chain)
+
+
+```text
+iptables -t filter -I FORWARD -m addrtype ! --dst-type LOCAL -m policy --pol ipsec --dir in -j NFLOG --nflog-group 5
+
+```
+
+IPsec traffic that is outgoing (iptables OUTPUT chain)
+
+
+```text
+iptables -t filter -I OUTPUT -m policy --pol ipsec --dir out -j NFLOG --nflog-group 5
+
+```
+
+Getting the traffic
+
+
+```text
+tcpdump -s 0 -n -i nflog:5
+
+```
+
+Ref: https://wiki.strongswan.org/projects/strongswan/wiki/CorrectTrafficDump
