@@ -14,6 +14,7 @@
 * [Routes](/linux/routes)
 * [Rsync](/linux/rsync)
 * [dos2unix](/linux/dos2unix)
+* [netcat-nc](/linux/netcat)
 # Bash
 * [Prompt](/linux/bash/prompt)
 
