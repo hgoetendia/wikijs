@@ -1,7 +1,7 @@
 <!-- TITLE: Snippets -->
 
 # Development
-* [C](/c)
+* [C](/c/c)
 
 * [Perl](/perl)
 
