@@ -17,7 +17,7 @@
 
 * [gdb](/gdb)
 # IDEs
-* [Emacs](/emacs)
+* [Emacs](/emacs/emacs)
 
 # OS
 
