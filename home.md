@@ -9,7 +9,7 @@
 
 * [Python](/python)
 
-* [Javascript](/javascript)
+* [Javascript](/javascript/javascript)
 
 * [Java](/java)
 
