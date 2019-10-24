@@ -13,7 +13,7 @@
 
 * [Java](/java)
 
-* [Bash](/bash)
+* [Bash](/bash/bash)
 
 * [gdb](/gdb)
 # IDEs
